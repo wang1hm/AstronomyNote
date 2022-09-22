@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "d25ba721d2cfb449",
+    "type": "split",
+    "children": [
+      {
+        "id": "06faceb2c3bd4f89",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Reading recording/Changing-look AGN/Systemetic search.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b063257cdc698e04",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2ee8cc5518d8b54",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5ab5cafe903a149c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5f519d9b51d92cb7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 266.5
+  },
+  "right": {
+    "id": "4c402c21b2ac9d26",
+    "type": "split",
+    "children": [
+      {
+        "id": "29ccbd242600dcbb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "18f2df76b798af69",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Reading recording/Changing-look AGN/Systemetic search.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "06faceb2c3bd4f89",
+  "lastOpenFiles": [
+    "Untitled.md",
+    "Reading recording/Changing-look AGN/Systemetic search.md",
+    "Reading recording/Untitled.md",
+    "Reading recording/Gas accretion/Gas Accretion onto the Milky Way.md",
+    "HI spiral/Sellwood+21.md",
+    "HI spiral/Pasted image 20220410200713.png",
+    "Something interesting/20220418-Group meeting.md",
+    "Try the note.md",
+    "HI spiral/Pasted image 20220410201559.png",
+    "Something interesting/2022.4.6-WangRan.md"
+  ]
+}
