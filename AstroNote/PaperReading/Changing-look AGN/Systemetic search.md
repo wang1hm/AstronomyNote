@@ -4,7 +4,7 @@ Active galactic nuclei (AGN) that show strong rest-frame optical/UV variability 
 
 ### Point
 #### Optical:
-SDSS/Pan-STARRS 1 3$\pi$/Catalina Sky Survey
+SDSS/Pan-STARRS 1 3$\pi$ /Catalina Sky Survey
 #### Radio
 exclude potential jet-related -> match to the unified radio catalog
 #### CLQ Candidate Selection
