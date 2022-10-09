@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "AstroNote/PaperReading/Changing-look AGN/Systemetic search.md",
+            "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#OUTFLOW",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -77,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AstroNote/PaperReading/Changing-look AGN/Systemetic search.md",
+                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AstroNote/PaperReading/Changing-look AGN/Systemetic search.md",
+                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AstroNote/PaperReading/Changing-look AGN/Systemetic search.md"
+                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md"
               }
             }
           }
@@ -128,8 +129,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5d99fe8c255e8d1d",
+  "active": "33ec65cf8b8278ea",
   "lastOpenFiles": [
+    "AstroNote/PaperReading/Changing-look AGN/Systemetic search.md",
     "PaperReading/Try the github.md"
   ]
 }
