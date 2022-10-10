@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 125.5
+    "width": 100,
+    "collapsed": true
   },
   "right": {
     "id": "5d236897a936ac12",
@@ -129,7 +130,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "33ec65cf8b8278ea",
+  "active": "5d99fe8c255e8d1d",
   "lastOpenFiles": [
     "AstroNote/PaperReading/Changing-look AGN/Systemetic search.md",
     "PaperReading/Try the github.md"
