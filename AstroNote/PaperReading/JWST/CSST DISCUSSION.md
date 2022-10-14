@@ -102,11 +102,29 @@ CID346
 XID36
 J1333+1649
 ### ABSTRACT
-An efficient coupling between the energy released by Active Galactic Nuclei (AGN) and the interstellar medium (ISM) of their ==host galaxy can generate kpc scales outflows== which may regulate the rate at ==which stars can form and ultimately influence the growth of the galaxy.== These AGN-driven outflows include gas in various phases ==(ionized, atomic, molecular) but at z>1,== due to the limitations of current instrumentation, ==we are forced to adopt a single-phase (ionized) view== of the outflow phenomenon which may lead to wrong estimates of their extent, mass and energetics, therefore ultimately misinterpreting their relevance for galaxy evolution.
+An efficient coupling between the energy released by Active Galactic Nuclei (AGN) and the interstellar medium (ISM) of their ==host galaxy can generate kpc scales outflows== which may regulate the rate at ==which stars can form and ultimately influence the growth of the galaxy.== These AGN-driven outflows include gas in various phases ==(ionized, atomic, molecular) but at z>1,== due to the limitations of current instrumentation, ==we are forced to adopt a single-phase (ionized) view== of the outflow phenomenon which may lead to wrong estimates of their extent, mass and energetics, therefore ultimately misinterpreting their relevance for galaxy evolution.%%此前只能假定ionized phase，用JWST可以同时考虑ionized，atomic，molecular态%%
 
-The aim of the proposed JWST/MIRI observations is to overcome this limit, and to ==map the mid-infrared ro-vibrational H2 lines to complete the multi-phase characterization== of already well-studied AGN at cosmic noon. The three selected AGN have the best available characterization of the ionized component of the outflow at these redshifts, ==from sub-pc to kpc scales==. With the MIRI observations we will be able to map the warm component of the ISM down to ~2 kpc. We will be able to test model predictions on the enhancement of H2 emission in the presence of cooling of gas shocked by AGN-driven outflow. Ultimately, ==we will derive the total (ionized+molecular) mass outflow rate and kinetic energy== for these outflows which will provide a key constrain on the current models of AGN feedback.
+The aim of the proposed JWST/MIRI observations is to overcome this limit, and to ==map the mid-infrared ro-vibrational H2 lines to complete the multi-phase characterization== %%多波段观测%%of already well-studied AGN at cosmic noon. ==The three selected AGN have the best available characterization of the ionized component of the outflow at these redshifts==, ==from sub-pc to kpc scales==. With the MIRI observations we will be able to map the warm component of the ISM down to ~2 kpc. We will be able to test model predictions on the enhancement of H2 emission in the presence of cooling of gas shocked by AGN-driven outflow. Ultimately, ==we will derive the total (ionized+molecular) mass outflow rate and kinetic energy== for these outflows which will provide a key constrain on the current models of AGN feedback.
 ### OBSERVING DESCRIPTION
+The targets of these observations are three AGN at z~2 with well established ionized outflows from sub-pc to kpc scales.  
+We will use ==MIRI MRS to sample the warm molecular phase== of the outflow via H2 transitions with the Long configuration in CH-1  
+We will also cover the ==PAH3.3 micron feature in the Long configuration in CH-2==  
+We will not perform Targer Acquisition, since the absolute JWST pointing accuracy of 0.1 arcsec is more than sufficient given the size of our targets (~1 arcsec diameter) and the fov of CH-1.
 
+CID436 (z=2.219)  
+No target acquisition procedure needed 4-point dither pattern  
+330 groups and 3 exposures per dither position Readout mode: FAST  
+Total exposure time on source: 3.05 hours
+
+XID36 (z=2.259)  
+No target acquisition procedure needed 4-point dither pattern  
+330 groups and 3 exposures per dither position Readout mode: FAST  
+Total exposure time on source: 3.05 hours
+
+J1333+1649 (z=2.089)  
+No target acquisition procedure needed 4-point dither pattern  
+330 groups and 3 exposures per dither position Readout mode: FAST  
+Total exposure time on source: 3.05 hours
 
 
 ## GO 2547 Quasar Feedback in Action: The Multiphase and Multiscale Outflow of the Most Luminous Quasar in the Local Universe  
@@ -114,4 +132,26 @@ The aim of the proposed JWST/MIRI observations is to overcome this limit, and to
 **PI Institution:** University of Maryland
 **Allocation:** 9.0 hours
 Observing Template: MIRI Medium Resolution Spectroscopy + NIRSpec IFU Spectroscopy
+### TARGET
+PDS456
+### ABSTRACT
+Quasar outflows are among the leading internal ==negative-feedback processes to explain the inside-out quenching of star formation== in massive galaxies and the tight SMBH-spheroid mass relation. The likely culprits, ==the fast-accreting quasars==, ==are common at the epoch of peak SMBH accretion but rare locally==, making it hard to catch and study this negative-feedback phenomenon in action, even with JWST. Fortunately, there is one spectacular exception: PDS 456, ==the most luminous quasar in the local universe==. ==Clear unambiguous signatures of outflows== have been detected in this object on all scales, ranging from the X-ray/UV-detected relativistic wind on sub-pc accretion-disk scales to the galaxy-wide warm-ionized and cold-molecular outflows which extend to at least 10 kpc. The energetics of the outflow indicate that it is potentially able to rapidly quench star formation in the host although the current observations are still missing the critically important ==coronal-ionized, neutral-atomic, and warm-molecular gas phases== to determine if the quasar actually affects the host evolution. The proposed NIRSpec and MIRI data cubes, analyzed with the highly optimized PSF decomposition software package IFSFIT, will allow us to ==(1) get an accurate and complete census of the outflow energetics, (2) constrain the dominant mechanisms that drive this outflow and AGN duty cycle, and (3) characterize the impact of the quasar outflow== and intense radiation field on the physical state of the host ISM, coeval star formation activity, and circumgalactic medium. These exquisite data will serve as a local template to help interpret the coarser data from scheduled GTO/ERS JWST studies of distant quasars.
+### OBSERVATION DESCRIPTION
+We will observe PDS 456 using the NIRSpec and MIRI IFUs with the following settings:
 
+-NIRSpec IFU with G235H/F170LP  
+data acquisition starts on the quasar itself, before a shift 0.5" S to capture blobs A and B 4-point dither pattern  
+20 groups and 5 integrations per dither position  
+Readout mode: NRSRAPID  
+--> total exposure time on source: 75 min  
+1 leakage exposure at one dither position: 11 min
+
+-MIRI IFU with the SHORT, MEDIUM, and LONG wavelength settings  
+data acquisition starts on the quasar itself (with FND filter), before a shift 0.5" S to capture blobs A and B 4-point all-wavelength extended source dither pattern  
+40 groups and 5 integrations per dither position for each wavelength setting  
+Readout mode: FAST  
+--> total exposure time on source: 3 x 37 min = 111 min  
+One background image in F1130W interspaced between each spectral setting  
+--> exposure time for interspacde F1130W images: 3 x 0.9 min ~ 3 min  
+1 off-source background data cube (obtained immediately after the on-source cube using the same settings as the on-source data cube) --> total exposure time on background: 3 x 37 min = 111 min  
+--> exposure time for interspaced F1130W images: 3 x 0.9 mn ~ 3 min
