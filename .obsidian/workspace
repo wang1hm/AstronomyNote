@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#OUTFLOW",
+                "query": "tag:#FEEDBACK ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -62,8 +62,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100,
-    "collapsed": true
+    "width": 100
   },
   "right": {
     "id": "5d236897a936ac12",
@@ -130,7 +129,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5d99fe8c255e8d1d",
+  "active": "33ec65cf8b8278ea",
   "lastOpenFiles": [
     "AstroNote/PaperReading/Changing-look AGN/Systemetic search.md",
     "PaperReading/Try the github.md"
