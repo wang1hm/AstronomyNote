@@ -156,13 +156,36 @@ One background image in F1130W interspaced between each spectral setting
 1 off-source background data cube (obtained immediately after the on-source cube using the same settings as the on-source data cube) --> total exposure time on background: 3 x 37 min = 111 min  
 --> exposure time for interspaced F1130W images: 3 x 0.9 mn ~ 3 min
 # FEEDBACK
-## GO 
-**Principal Investigator:** 
-**PI Institution:**  
-**Allocation:** 
-Observing Template: 
+## GO 1717 Feedback around Supermassive Black Holes in Dusty Nuclei
+**Principal Investigator:** Vivian U
+**PI Institution:**  University of California - Irvine
+**Allocation:** 31.1 hours
+Observing Template: MIRI Medium Resolution Spectroscopy
 ### TARGET
-
+MRK273
+VV340A
+UGC05101
+IIIZW035
+IRASF01364-1042
+IRASF17207-0014
 ### ABSTRACT
+When galactic outflows are triggered, what is the ==impact of feedback on the interstellar medium at the launch site==? How much ==energy== is transported into the ==circumnuclear regions== and subsequently affect the ==dust geometry== and ==metal distribution==? What drives these winds and how do they depend on ==intrinsic AGN propertie==s or ==nuclear star formation rates==? Addressing these pressing questions will have a profound impact on our understanding of the role of feedback in galaxy evolution, and can only be answered observationally using ==high spatial- and spectral-resolution infrared instruments== -- capable of peering through heavy dust screens into galactic nuclei where powerful outflows are launched -- finally made available with JWST.
 
+Capitalizing on the unparalleled diagnostic capability MIRI exhibits over the full 5-28 micron range, our proposed MRS observations of ==7 nearby luminous infrared galaxies== known to ==host prominent shocked molecular outflows== will provide a holistic view of the ==molecular gas, dust, AGN, star formation, and metallicity== in the central 4 kpc of ongoing galaxy mergers at the scales of 30-90 pc. We will determine the heating mechanisms for and gauge energetics of the outflows, correlate their spatial properties with AGN strength, and map their influence on metal distribution and star formation in different environments spanning a range of bolometric AGN fraction, infrared luminosities, and merger class. The 4x better spectral resolution of MRS over Spitzer IRS carries discovery potential in mapping the ionization state of the outflows.%%已知的7个较近的有molecular outflow的源%%
+
+Proprietary data rights are waived to enhance the data's legacy value and to facilitate Cycle 2 proposals for the community.
 ### OBSERVING DESCRIPTION
+We propose MIRI MRS observations for 7 sources in our sample of ==(U)LIRGs==. Two of these sources will be observed as part of a GTO (IRAS F17207-0014; ID 1204, PI Rieke; covering only the short (A) sub-band within MRS) or an ERS (NGC 7469; ID 1328, PI Armus;covering all MIRI modes with sufficient exposure depth for our science goals) program, so we are ==proposing full 528m MIRI MRS observations for the remaining targets==. We will fully utilize the wavelength range of four MRS channels for the suite of ==diagnostic lines== accessible within 5-28m.
+
+We will adopt the ==4-point dither== pattern optimized for an extended source for better sampling of the PSF with relatively uniform coverage. Since our targets span the ==FOV==, we request an off-target observation with a 2-point dither pattern to reduce overheads while providing proper background subtraction for each source. The Background pointing and the Science observation are linked in an uninterruptible sequence for this purpose. ==Simultaneous MIRI imaging of another part of the host galaxy will be obtained in F560W, F770W, and F1500W band==s, useful for improving astrometry and facilitating other ancillary science goals (i.e. mapping PAH features at F770W and dust temperature distribution using F560W and F1500W).
+## GO 1875 Kinetic and Chemical Feedback in Radio-Quiet AGN as a Driver of the Galaxy Evolution – Revealed in ESO 420-G13
+**Principal Investigator:** Juan Fernandez
+**PI Institution:**  INAF - Istituto di Astrofisica e Planetologia Spaziali
+**Allocation:** 4.2 hours
+Observing Template: MIRI/MRS
+### TARGET
+ESO 420-G13
+### ABSTRACT
+We propose JWST/MIRI medium resolution spectroscopic observations of the ==multi-phase outflow== in ESO 420-G13 to obtain: i) ==the mass and the energy== budget for both the ==ionized and the molecular wind== components; ii) the first ==IR-based determination of the chemical abundances== and the ==metal-loading factor== in a AGN-driven outflow. The mass and the energy budget will then be compared with current AGN feedback simulations, to determine ==the role of the ionized wind in the acceleration and dispersion of the molecular gas and the origin of the outflowing material.== IR-based metallicities in the outflow of ESO 420-G13 can provide the first direct evidence of whether AGN-driven outflows ==regulate the content of heavy elements in galaxies.== Chemical abundances based on IR transitions are insensitive to the dust obscuration and the temperature effects that introduce serious biases in ==stratified and inhomogeneous nebulae==, conditions that are expected when a strong galactic wind is present. This study will provide unique insight into the feedback processes in ==low-luminosity AGN==, the most common form of activity in the nearby Universe. ESO 420-G13 represents ==one of the two cases where a radio-elusive jet has been revealed through its interaction with the ISM==, and the only one where ==the ionized phase of the outflow has been revealed in the [NeII] 12.8 micron emission line==, distinguishing this source as an ideal laboratory to study the supermassive black hole-ISM interaction with JWST.
+### OBSERVING DESCRIPTION
+We propose JWST/MIRI MRS observations of the ==ionized and molecular gas outflow in the low-luminosity AGN ESO 420-G13==, to derive the mass and the energy budget for both components and provide the first IR-based measurement of the ==chemical abundances== and the ==metal-loading factor== in an AGN-driven wind. ==Our main goal is to characterize the AGN feedback mechanism, determine the origin of the outflowing material, and probe whether AGN-driven outflows are able to regulate the content of heavy elements in galaxies.== Mosaic observations of the central 6"x6" (1.5 x 1.5 kpc2) using a 4-point dither pattern are proposed for the three dichroic settings, to cover the bridge between the inner ionized outflow detected in the [NeII] 12.8 micron line with VLT/VISIR and the cold molecular ==gas outflow detected in CO(2-1)== with ALMA. A dedicated sky acquisition is included to subtract the background contribution, to be executed next to the science acquisition. No other special requirements are requested. The total exposure time is 45 min., corresponding to a total observing time of 4.0 hours including the overheads.
