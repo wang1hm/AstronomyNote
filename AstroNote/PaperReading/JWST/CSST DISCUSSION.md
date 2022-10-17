@@ -199,18 +199,29 @@ Observing Template: NIRSpec/IFU
 Group TNJ1338-1942-GRP
 TGSSJ1530+1049
 ### ABSTRACT
+The evolution in the mass accretion rate and density of supermassive black holes (SMBHs) shows that the ==SMBHs in today's most massive galaxies formed in a relatively short time after the Big Bang.== This biased growth of massive galaxies and SMBHs requires ==rapid accretion in the early Universe==, coupled with a ==strong influence of SMBH activity on the hosts== through powerful radio jets and radiation-driven winds. Luminous radio galaxies offer ideal laboratories for studying both modes of AGN ‘feedback’ and where the ==AGN does not outshine its host galaxy== (unlike for quasars). With the NIRSpec/IFU it is now possible for the first time to ==spatially resolve the impact of AGN radio jets on their host galaxies in the rest-frame optical at z > 4.==
 
+We will target ==the rest-frame optical emission of two of the most distant, prototypical radio galaxies==, TN J1338- 1942 (z=4.11) and TGSS J1530+1049 (z=5.72). We will spatially ==resolve the ionization state, kinematics and metallicity== of the gas to constrain how AGN with large-scale radio jets inject energy and modify star-formation in the presence of infall and ==AGN- and starburst-driven winds==. The data will also constrain the ==stellar populations, delineate the host galaxy morphologies, and detect broad emission lines in scattered light== to derive black hole masses. Both objects will be observed with ==NIRCam in GTO to study their larger Mpc-scale environments==. Together these programs will allow us to derive a complete picture of the evolution of some of the most massive and powerful radio AGN known in the early universe, from their energetic cores to their wider cosmic environments.
 ### OBSERVING DESCRIPTION
+==NIRspec/IFU observations of two high redshift targets.== Target TNJ1338-1942 will be observed with ==two dispersers (G235H and G395H)== and by nodding off the source for background subtraction. Target TGSS J1530+1049 will be observed with ==one disperser (G395H)== and by nodding on the source.
 
-## GO 
-**Principal Investigator:** 
-**PI Institution:**  
-**Allocation:** 
-Observing Template: 
+We use the readout pattern NRSIRS2 with 16 groups per integration, 2 integrations and ==4 dither points== for the target group TN J1338-1942-GRP which includes the target and the nod off-scene background pointing. We use the readout pattern NRSIRS2 with 19 groups per integration, 5 integrations and 4 dithers for the target TGSS J1530+1049, which will have nod in-scene background subtraction using the 4-point nod.
+
+We do not require target acquisition as TN J1338-1942 has available deep HST as well as ==high-resolution radio imagin==g, and TGSS J1530+1049 has Very Long Baseline Interferometry (VLBI) radio imaging available with sub-arcsecond resolution.%%不需要很高的射电波段光谱数据，已经有HST和VLBI的数据了，主要是补齐NIR的光谱%%
+
+NOTE: ROLL ANGLE CONSTRAINTS ADDED IN ORDER TO AVOID LEAKAGE DUE TO A RELATIVELY BRIGHT IR OBJECT FALLING ON THE MSA
+## GO 1970 Zooming into the Monster's Mouth: Tracing Feedback from Their Hosts to Circumgalactic Medium in z=3.5 Radio-loud AGN
+**Principal Investigator:** Wuji Wang
+**PI Institution:**  Universitat Heidelberg
+**Allocation:** 24.1 hours
+Observing Template: NIRSpec/IFU
 ### TARGET
-
+TNJ0205+2242
+TNJ0121+1320
+4C03.24
+4C19.71
 ### ABSTRACT
-
+Actively accreting supermassive black holes (AGN) can have ==significant impact on the evolution of their host galaxies through feedback== in the form of gas winds and radio jets which can be seen on kpc scale, encompassing the entire galaxy. We propose here to determine the impact of powerful AGN on their host galaxies at Cosmic Noon where the co-moving density of luminous AGN is at its peak. Our sample consists of high-redshift radio galaxies (HzRGs), the only AGN population, in which quasar-mode feedback, radio-mode feedback and the host galaxies can be characterised simultaneously. We will use the JWST to 'zoom into' some of the most massive and active galaxies at the onset of the peak of star-formation and AGN activity to address the long-standing question on how exactly AGN-driven outflows propagate into the host galaxy and how small-scale phenomena close to the central engine reflect on the large-scale jet and gas characteristics. The diffraction-limited resolution of JWST and two- dimensional coverage with NIRSpec IFU will provide a 10-fold improvement in resolution over existing observations and will allow us to map the stellar, gas, and excitation components of distant HzRGs all at once for the first time. It is critically important to compare local AGN with what happens near the start of the peak of the cosmic star formation rate density at comparable sub-kpc scale resolution, and with exactly the same diagnostics. Our sample at the “sweet spot” redshift ~3.5 is uniquely suited to do this, covering the critical wavelength regime between [OII] and H- alpha even including [SII] in just one spectral setting with the NIRSpec G235H/F170LP.
 ### OBSERVING DESCRIPTION
 
 ## GO 
