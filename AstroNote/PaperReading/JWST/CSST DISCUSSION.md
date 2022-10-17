@@ -216,43 +216,84 @@ NOTE: ROLL ANGLE CONSTRAINTS ADDED IN ORDER TO AVOID LEAKAGE DUE TO A RELATIVELY
 **Allocation:** 24.1 hours
 Observing Template: NIRSpec/IFU
 ### TARGET
-TNJ0205+2242
-TNJ0121+1320
-4C03.24
-4C19.71
+TNJ0205+2242: z=3.50610 +/- 0.00040
+TNJ0121+1320: z=3.52001 +/- 0.00070
+4C03.24: z=3.56990 +/- 0.00030
+4C19.71: z=3.59347 +/- 0.00066
 ### ABSTRACT
-Actively accreting supermassive black holes (AGN) can have ==significant impact on the evolution of their host galaxies through feedback== in the form of gas winds and radio jets which can be seen on kpc scale, encompassing the entire galaxy. We propose here to determine the impact of powerful AGN on their host galaxies at Cosmic Noon where the co-moving density of luminous AGN is at its peak. Our sample consists of high-redshift radio galaxies (HzRGs), the only AGN population, in which quasar-mode feedback, radio-mode feedback and the host galaxies can be characterised simultaneously. We will use the JWST to 'zoom into' some of the most massive and active galaxies at the onset of the peak of star-formation and AGN activity to address the long-standing question on how exactly AGN-driven outflows propagate into the host galaxy and how small-scale phenomena close to the central engine reflect on the large-scale jet and gas characteristics. The diffraction-limited resolution of JWST and two- dimensional coverage with NIRSpec IFU will provide a 10-fold improvement in resolution over existing observations and will allow us to map the stellar, gas, and excitation components of distant HzRGs all at once for the first time. It is critically important to compare local AGN with what happens near the start of the peak of the cosmic star formation rate density at comparable sub-kpc scale resolution, and with exactly the same diagnostics. Our sample at the “sweet spot” redshift ~3.5 is uniquely suited to do this, covering the critical wavelength regime between [OII] and H- alpha even including [SII] in just one spectral setting with the NIRSpec G235H/F170LP.
+Actively accreting supermassive black holes (AGN) can have ==significant impact on the evolution of their host galaxies through feedback== in the form of gas winds and radio jets which can be seen on ==kpc scale,== encompassing the entire galaxy. We propose here to determine the impact of ==powerful AGN on their host galaxies at Cosmic Noo==n where the co-moving density of luminous AGN is at its peak. Our sample consists of high-redshift radio galaxies (HzRGs), the only AGN population, in which ==quasar-mode feedback, radio-mode feedback and the host galaxies can be characterised simultaneously.== We will use the JWST to 'zoom into' some of the most massive and active galaxies at the onset of the peak of star-formation and AGN activity to address the long-standing question on ==how exactly AGN-driven outflows propagate into the host galaxy and how small-scale phenomena close to the central engine reflect on the large-scale jet and gas characteristics==. The diffraction-limited resolution of JWST and two-dimensional coverage with NIRSpec IFU will provide a ==10-fold improvement in resolution over existing observations and will allow us to map the stellar, gas, and excitation components of distant HzRGs== all at once for the first time. It is critically important to compare ==local AGN with what happens near the start of the peak of the cosmic star formation rate density== at comparable sub-kpc scale resolution, and with exactly the same diagnostics. Our sample at the “sweet spot” redshift ==~3.5== is uniquely suited to do this, covering the critical wavelength regime between ==[OII] and H-alpha even including [SII]== in just one spectral setting with the NIRSpec G235H/F170LP.
 ### OBSERVING DESCRIPTION
+We will be observing four high-redshift radio galaxies at z ~ 3.5 using the NIRSpec IFUs. The main goal is to ==spatially map the emission lines from [OII] to H-alpha and [SII]== that are all covered in just ==one spectral setting (G235H/170LP)==.
+## GO 2064 Dust in the Wind: Testing a New Paradigm for the Nature of AGN Feedback
+**Principal Investigator:** David Rosario
+**PI Institution:**  Newcastle University
+**Allocation:** 22.4 hours
+Observing Template: MIRI/Imaging
+### TARGET
+ESO-428-14
+NGC-2992
+NGC-3081
+NGC-3227
+NGC-4388
+NGC-5135
+NGC-5728
+NGC-7172
+NGC-5135
+NGC-5728
+NGC-7172
+### ABSTRACT
+Understanding the ouflows driven by Active Galactic Nuclei (AGN) is of key importance for the modern view of galaxy evolution. A recent paradigm shift in our picture of ==dust in the vicinity of AGN== offers promise for outflow science. We now know that a major part of an AGN's mid- infrared ==(MIR) dust emission== comes from a ==polar structure that arises in a radiatively-accelerated dusty wind==. Ground-based work has shown that similar polar emission is also found hundreds of pc away from the nucleus. ==If we can confirm that this extended polar emission is fundamentally connected to the pc-scale dusty wind, it will be our best evidence yet for a coherent dynamical connection between nuclear and galaxy-scale outflows.==
 
-## GO 
-**Principal Investigator:** 
-**PI Institution:**  
+This proposal will employ MIRI multi-filter imaging to unravel the nature of AGN-heated emission beyond the central ==100 parsec==. It relies on the unparalleled surface-brightness sensitivity of JWST, a strength that the best ground-based instruments cannot match. Our 8 targets are ==well-studied nearby Seyferts that already have established polar dust detections==, and are carefully selected for their ==high-resolution ancillary data== (HST imaging, AO-assisted and ALMA 3D spectroscopy).%%为了看AGN周围polar dust emission和百pc范围的dust是不是在根本上一样，进而证明AGN feedback影响星系，选源是已经有well polar dust detection，有HST等辅助数据%%
+
+The new JWST data will reveal the structure and colors of the extended dust. We will compare the geometry of the dust to the predictions of hydrodynamic simulations, determine its masses and energy content using ==state-of-the-art radiative transfer models,== and explore its grain composition using novel diagnostics of broad-band spectral features. Along with ancillary kinematic information, we will test the salient hypothesis that ==the extended dust emission is shaped by a nuclear outflow.==
+### OBSERVING DESCRIPTION
+The proposed observations consist of MIRI imager exposures in multiple bands over the central regions of ==eight (8) nearby Seyfert galaxies==. The targets are bright extended galaxies and all have bright point sources that account for most of their central mid-infrared flux.
+
+Our science goals investigate the nature of the ==low surface-brightness extended warm dust emission.==  
+We require 5 filterbands (F560W, F1000W, F1500W, F1800W, F2100W) for a detailed study of ==resolved spectral energy distributions, temperature modelling, and dust mass estimation.==
+
+==We adopt a strategy of short ramps (Ngroup = 5) and many integrations (Nint = 50) to minimise saturation of the central point source, while obtaining sufficiently deep exposures sensitive to the extended emission.== %%？为什么这样就能避免%%We will use the SUB256 imaging subarray, which has a suitable field of view for our goals coupled with a FAST readout mode.
+
+Our science pointings are centered on our targets and take a 4-point dither strategy optimised for point-sources to allow for background estimation, the treatment of detector flatfields, and central point source modelling and subtraction. In order to accurately remove the thermal backgrounds which will affect the three long wavelength bands, we will also take exposures of a nearby background field for all our targets, with an identical readout configuration and a 2-point dither to remove source structure in the field.
+## GO 2547 Quasar Feedback in Action: The Multiphase and Multiscale Outflow of the Most Luminous Quasar in the Local Universe \[also in former part (outflow)]
+**Principal Investigator:** Sylvain Veilleux
+**PI Institution:**  University of Maryland
+**Allocation:** 9.0 hours
+Observing Template: MIRI/MRS  
+NIRSpec/IFU
+### TARGET
+PDS456
+### ABSTRACT
+Quasar outflows are among the leading internal ==negative-feedback processes to explain the inside-out quenching of star formation== in massive galaxies and the tight SMBH-spheroid mass relation. The likely culprits, ==the fast-accreting quasars==, ==are common at the epoch of peak SMBH accretion but rare locally==, making it hard to catch and study this negative-feedback phenomenon in action, even with JWST. Fortunately, there is one spectacular exception: PDS 456, ==the most luminous quasar in the local universe==. ==Clear unambiguous signatures of outflows== have been detected in this object on all scales, ranging from the X-ray/UV-detected relativistic wind on sub-pc accretion-disk scales to the galaxy-wide warm-ionized and cold-molecular outflows which extend to at least 10 kpc. The energetics of the outflow indicate that it is potentially able to rapidly quench star formation in the host although the current observations are still missing the critically important ==coronal-ionized, neutral-atomic, and warm-molecular gas phases== to determine if the quasar actually affects the host evolution. The proposed NIRSpec and MIRI data cubes, analyzed with the highly optimized PSF decomposition software package IFSFIT, will allow us to ==(1) get an accurate and complete census of the outflow energetics, (2) constrain the dominant mechanisms that drive this outflow and AGN duty cycle, and (3) characterize the impact of the quasar outflow== and intense radiation field on the physical state of the host ISM, coeval star formation activity, and circumgalactic medium. These exquisite data will serve as a local template to help interpret the coarser data from scheduled GTO/ERS JWST studies of distant quasars.
+### OBSERVATION DESCRIPTION
+We will observe PDS 456 using the NIRSpec and MIRI IFUs with the following settings:
+
+-NIRSpec IFU with G235H/F170LP  
+data acquisition starts on the quasar itself, before a shift 0.5" S to capture blobs A and B 4-point dither pattern  
+20 groups and 5 integrations per dither position  
+Readout mode: NRSRAPID  
+--> total exposure time on source: 75 min  
+1 leakage exposure at one dither position: 11 min
+
+-MIRI IFU with the SHORT, MEDIUM, and LONG wavelength settings  
+data acquisition starts on the quasar itself (with FND filter), before a shift 0.5" S to capture blobs A and B 4-point all-wavelength extended source dither pattern  
+40 groups and 5 integrations per dither position for each wavelength setting  
+Readout mode: FAST  
+--> total exposure time on source: 3 x 37 min = 111 min  
+One background image in F1130W interspaced between each spectral setting  
+--> exposure time for interspacde F1130W images: 3 x 0.9 min ~ 3 min  
+1 off-source background data cube (obtained immediately after the on-source cube using the same settings as the on-source data cube) --> total exposure time on background: 3 x 37 min = 111 min  
+--> exposure time for interspaced F1130W images: 3 x 0.9 mn ~ 3 min
+
+## GO 2554 AGN Feeding and Feedback in NGC 4151 \[AR PROJECT]
+**Principal Investigator:** Francisco Mueller-Sanchez
+**PI Institution:**  University of Memphis
 **Allocation:** 
 Observing Template: 
 ### TARGET
-
+NGC 4151
 ### ABSTRACT
-
+The discovery of a number of black hole (BH) galaxy relations has shown that ==the growth of supermassive BHs is closely related to the evolution of galaxies.== This evidence has opened a new debate in which the fundamental questions concern the interactions between the central BH and the interstellar medium within the host galaxy, and can be addressed by studying two crucial processes: ==feeding and feedback==. Using archival JWST NIRSpec data, we aim to characterize the circumnuclear region of NGC 4151 to study, with unprecedented detail AGN feeding and feedback. NGC 4151, as one of the nearest AGN and an extremely well-studied Seyfert galaxy, provides an outstanding opportunity to obtain meaningful constraints for models incorporating these processes to regulate ==BH-host galaxy co-evolution==. We will achieve this by: (1) tracing outflows via ionized and coronal gas emission to establish the energetics of the outflowing gas and potential for feedback into the host galaxy, (2) tracing inflows via molecular hydrogen gas emission from which the driving inflow mechanism can be identified and an inflow rate obtained via modeling, (3) using the wide range of available H2 lines in the near-IR to establish their connection with the obscuring torus, and (4) obtaining a molecular gas-based black hole mass estimate. JWST is uniquely capable of advancing our understanding of these processes due to its sensitivity and stable point-spread-function, which facilitates the detection of diagnostic emission lines not available in current ground based data, as well as probing these processes down to unprecedented spatial scales.
 ### OBSERVING DESCRIPTION
 
-## GO 
-**Principal Investigator:** 
-**PI Institution:**  
-**Allocation:** 
-Observing Template: 
-### TARGET
-
-### ABSTRACT
-
-### OBSERVING DESCRIPTION
-
-## GO 
-**Principal Investigator:** 
-**PI Institution:**  
-**Allocation:** 
-Observing Template: 
-### TARGET
-
-### ABSTRACT
-
-### OBSERVING DESCRIPTION
