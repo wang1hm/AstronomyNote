@@ -190,3 +190,58 @@ We propose JWST/MIRI medium resolution spectroscopic observations of the ==multi
 ### OBSERVING DESCRIPTION
 We propose JWST/MIRI MRS observations of the ==ionized and molecular gas outflow in the low-luminosity AGN ESO 420-G13==, to derive the mass and the energy budget for both components and provide the first IR-based measurement of the ==chemical abundances== and the ==metal-loading factor== in an AGN-driven wind. ==Our main goal is to characterize the AGN feedback mechanism, determine the origin of the outflowing material, and probe whether AGN-driven outflows are able to regulate the content of heavy elements in galaxies.== Mosaic observations of the central 6"x6" (1.5 x 1.5 kpc2) using a 4-point dither pattern are proposed for the three dichroic settings, to cover the bridge between the inner ionized outflow detected in the [NeII] 12.8 micron line with VLT/VISIR and the cold molecular ==gas outflow detected in CO(2-1)== with ALMA. A dedicated sky acquisition is included to subtract the background contribution, to be executed next to the science acquisition. No other special requirements are requested. The total exposure time is 45 min., corresponding to a total observing time of 4.0 hours including the overheads.
 
+## GO 1964 The role of radio AGN feedback in massive galaxies at z = 4 - 6
+**Principal Investigator:** Roderik Overzier
+**PI Institution:**  Observatorio Nacional
+**Allocation:** 23.6 hours
+Observing Template: NIRSpec/IFU
+### TARGET
+Group TNJ1338-1942-GRP
+TGSSJ1530+1049
+### ABSTRACT
+
+### OBSERVING DESCRIPTION
+
+## GO 
+**Principal Investigator:** 
+**PI Institution:**  
+**Allocation:** 
+Observing Template: 
+### TARGET
+
+### ABSTRACT
+
+### OBSERVING DESCRIPTION
+
+## GO 
+**Principal Investigator:** 
+**PI Institution:**  
+**Allocation:** 
+Observing Template: 
+### TARGET
+
+### ABSTRACT
+
+### OBSERVING DESCRIPTION
+
+## GO 
+**Principal Investigator:** 
+**PI Institution:**  
+**Allocation:** 
+Observing Template: 
+### TARGET
+
+### ABSTRACT
+
+### OBSERVING DESCRIPTION
+
+## GO 
+**Principal Investigator:** 
+**PI Institution:**  
+**Allocation:** 
+Observing Template: 
+### TARGET
+
+### ABSTRACT
+
+### OBSERVING DESCRIPTION
