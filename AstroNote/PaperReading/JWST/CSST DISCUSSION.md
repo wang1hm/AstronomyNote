@@ -368,18 +368,27 @@ At ==z>6== (when the Universe is <1 Gyr old), ==luminous quasars are exceptional
 ### OBSERVING DESCRIPTION
 We propose to secure NIRSpec IFU observations of the ==quasar+galaxy merging system PJ308-21 at z=6.234.== Very recently, ==ALMA has provided first unambiguous evidence of satellite galaxies around quasars==. The targeted system is the poster child of merging galaxies at z>6: High angular resolution (~0.2" or ~1 kpc) observations of the ==rest-frame UV starlight emission (from HST) and of the [CII] and rest-frame FIR dust continuum (from ALMA)== reveal the interplay of gas, dust, star formation, and nuclear activity. We can explain the intricate morphology with a current dynamical model invoking the tidal stripping of one or more satellite galaxies orbiting in close proximity to the quasar host galaxy. In addition, a bright Ly-alpha halo extends on the Eastern side of the quasar host, partially overlapping the satellite galaxy.
 
-The system can be covered in only two IFU pointings. A third pointing off-source will be used for background subtraction. We will target key optical diagnostic emission lines: Halpha, Hbeta, [OIII], [NII], as well as the stellar optical continuum emission, all in a single spectral setup. The goals of the project include measuring the instantaneous star formation rate, reconstructing the kinematics of the ionized gas, constraining metallicity, ionization parameter, probing the origin of the Ly-alpha halo, measuring its metallicity and ionization parameter, and assessing the stellar mass budget of the system.
-## GO 
-**Principal Investigator:** 
-**PI Institution:** 
-**Allocation:** 
-Observing Template: 
+The system can be covered in only ==two IFU pointings==. A third pointing off-source will be used for background subtraction. We will target ==key optical diagnostic emission lines: Halpha, Hbeta, [OIII], [NII]==, as well as the stellar optical continuum emission, all in a single spectral setup. The goals of the project include measuring the instantaneous star formation rate, reconstructing the kinematics of the ionized gas, constraining metallicity, ionization parameter, probing the origin of the Ly-alpha halo, measuring its metallicity and ionization parameter, and assessing the stellar mass budget of the system.
+
+# FIRST ACCRETING BH
+## GO 1760 First Accreting Black Hole Candidates: Infrared-dropout Heavily Obscured X-ray AGNs
+**Principal Investigator:** Hyewon Suh
+**PI Institution:** NOIRLab - Gemini North (HI)
+**Allocation:** 24.1 hours
+Observing Template: NIRSpec/FS  
+MIRI/LRS
 ### TARGET
-
+LID568
+LID2176
+LID2619
+LID3488
+CID1549
+LID4959
+LID1166
 ### ABSTRACT
-
+We propose to obtain high-resolution NIRspec fixed slits (FS) spectroscopy and MIRI low-resolution slit spectroscopy (LRS) for newly discovered ==infrared-dropout X-ray sources== (i.e., without any optical/NIR counterparts) in the COSMOS field. This is ==possibly the first population of accreting black holes==, and/or heavily obscured AGNs at high redshift, providing a valuable observational constraint on a hidden phase of a significant growth of supermassive black hole (SMBH) in the early universe. Considering that our targets are optically dark, the JWST spectroscopy is the only instrument allowing to obtain the ==high-resolution IR spectra to detect the emission lines to confirm the spectroscopic redshift and classification for these sources.== This proposed study will allow us to explore the most energetic and obscured phase of accreting black holes to understand the formation of SMBHs. Our program will facilitate the first detailed study of yet unknown heavily obscured population at early cosmic epoch.
 ### OBSERVING DESCRIPTION
-
+We will use NIRspec FS high-resolution spectroscopy for 7 objects with robust Spitzer/IRAC 3.6 and 4.5um detections to identify the nature of these sources, whether they are really direct collapse black holes (DCBHs) or a yet undiscovered population of heavily obscured black holes at high redshift. Our primary goal is to detect emission lines in order to obtain the spectroscopic redshift, as well as some other features, e.g., broad-lines and/or outflows. We will use the grating/filter combination of G395M/F290LP with FULL/NRSIRS2RAPID. By using the dual slit dither (S200A1 and S200A2), we will obtain complete wavelength coverage from 2.87um to 5.14um in high-resolution R~2700. We will also use MIRI LRS slit spectroscopy for 3 objects, which are detected in all Spitzer/IRAC and MIPS24um bands, to measure their MIR spectra with significant S/N, covering 5-12um wavelength ranges with R~100.
 ## GO 
 **Principal Investigator:** 
 **PI Institution:** 
