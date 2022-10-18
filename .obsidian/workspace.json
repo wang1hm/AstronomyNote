@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#SMBH",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5d236897a936ac12",
@@ -141,7 +140,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "5d99fe8c255e8d1d",
+  "active": "33ec65cf8b8278ea",
   "lastOpenFiles": [
     "().md",
     "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
