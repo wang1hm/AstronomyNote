@@ -70,11 +70,6 @@ We will obtain simultaneous imaging in 3 filters. During the MRS background expo
 
 
 
-
-
-
-
-
 ## GO 2004 Pressure gradients of the molecular gas and their role in cloud stability in massive outflows driven by black hole jets
 **Principal Investigator:** Kalliopi Dasyra
 **PI Institution:**  University of Athens
@@ -155,6 +150,22 @@ One background image in F1130W interspaced between each spectral setting
 --> exposure time for interspacde F1130W images: 3 x 0.9 min ~ 3 min  
 1 off-source background data cube (obtained immediately after the on-source cube using the same settings as the on-source data cube) --> total exposure time on background: 3 x 37 min = 111 min  
 --> exposure time for interspaced F1130W images: 3 x 0.9 mn ~ 3 min
+
+## GO 1928 Blowing Star Formation Away: Unraveling Molecular Wnds in AGN
+**Principal Investigator:** Rogemar Riffel
+**PI Institution:** Universidade Federal de Santa Maria
+**Allocation:** 16.3 hours
+Observing Template: NIRSpec/IFU  
+MIRI/MRS
+### TARGET
+NGC3884
+CGCG012-070
+UGC-08782
+### ABSTRACT
+Winds powered by radiation from active galactic nuclei (AGN) are thought to critically affect galaxy evolution. The fate of ==molecular gas in such outflows== is one of the most important unsolved questions in galaxy evolution: if we find that ==winds can entrain, reheat or remove molecular gas from galaxies== we will prove that AGN can quench star formation in its host galaxy and enable the first studies of this key stage of AGN feedback. However, despite years of searches with ground-based telescopes, only a few molecular outflows are known among AGN in the local universe. Here we propose MIRI and NIRSpec IFU observations to spatially resolve the ==molecular gas kinematics in the three most promising hosts of strong molecular outflows identified from Spitzer and SDSS spectroscopy==. These observations will be used in a detailed investigation to reveal if the molecular gas demonstrates the kinematics commensurate with the wind hypothesis. Furthermore, the JWST data will allow the first in-depth studies of the impact of the AGN on the molecular gas in their hosts.%%选源：Spitzer和SDSS看到了强分子outflow的hosts，进而看outflow即agn feedback对星系演化的影响%%
+### OBSERVING DESCRIPTION
+We will be observing three ==local Universe AGN host galaxies== using a combination of NIRSpec and MIRI IFUs. The targets were selected as being very promissing hosts of strong molecular outflows. ==The warm gas phase will be observed through MIR H2 emission lines, while the hot phase is traced by the NIR H2 emission==. Several emission lines from ionized gas will be used to trace the ionized outflows, which will allow us to characterize the multi-phase outflows.
+
 # FEEDBACK
 ## GO 1717 Feedback around Supermassive Black Holes in Dusty Nuclei
 **Principal Investigator:** Vivian U
@@ -370,7 +381,7 @@ We propose to secure NIRSpec IFU observations of the ==quasar+galaxy merging sys
 
 The system can be covered in only ==two IFU pointings==. A third pointing off-source will be used for background subtraction. We will target ==key optical diagnostic emission lines: Halpha, Hbeta, [OIII], [NII]==, as well as the stellar optical continuum emission, all in a single spectral setup. The goals of the project include measuring the instantaneous star formation rate, reconstructing the kinematics of the ionized gas, constraining metallicity, ionization parameter, probing the origin of the Ly-alpha halo, measuring its metallicity and ionization parameter, and assessing the stellar mass budget of the system.
 
-# FIRST ACCRETING BH
+# FIRST LIGHT
 ## GO 1760 First Accreting Black Hole Candidates: Infrared-dropout Heavily Obscured X-ray AGNs
 **Principal Investigator:** Hyewon Suh
 **PI Institution:** NOIRLab - Gemini North (HI)
@@ -386,9 +397,126 @@ CID1549
 LID4959
 LID1166
 ### ABSTRACT
-We propose to obtain high-resolution NIRspec fixed slits (FS) spectroscopy and MIRI low-resolution slit spectroscopy (LRS) for newly discovered ==infrared-dropout X-ray sources== (i.e., without any optical/NIR counterparts) in the COSMOS field. This is ==possibly the first population of accreting black holes==, and/or heavily obscured AGNs at high redshift, providing a valuable observational constraint on a hidden phase of a significant growth of supermassive black hole (SMBH) in the early universe. Considering that our targets are optically dark, the JWST spectroscopy is the only instrument allowing to obtain the ==high-resolution IR spectra to detect the emission lines to confirm the spectroscopic redshift and classification for these sources.== This proposed study will allow us to explore the most energetic and obscured phase of accreting black holes to understand the formation of SMBHs. Our program will facilitate the first detailed study of yet unknown heavily obscured population at early cosmic epoch.
+We propose to obtain high-resolution NIRspec fixed slits (FS) spectroscopy and MIRI low-resolution slit spectroscopy (LRS) for newly discovered ==infrared-dropout X-ray sources==%%？只在x-ray有观测的意思？%% (i.e., without any optical/NIR counterparts) in the COSMOS field. This is ==possibly the first population of accreting black holes==, and/or heavily obscured AGNs at high redshift, providing a valuable observational constraint on a hidden phase of a significant growth of supermassive black hole (SMBH) in the early universe. Considering that our targets are optically dark, the JWST spectroscopy is the only instrument allowing to obtain the ==high-resolution IR spectra to detect the emission lines to confirm the spectroscopic redshift and classification for these sources.== This proposed study will allow us to explore the most energetic and obscured phase of accreting black holes to understand the formation of SMBHs. Our program will facilitate the first detailed study of yet unknown heavily obscured population at early cosmic epoch.%%确认一个可能是最高红移的目标，infrared-dropout x-ray sources%%
 ### OBSERVING DESCRIPTION
-We will use NIRspec FS high-resolution spectroscopy for 7 objects with robust Spitzer/IRAC 3.6 and 4.5um detections to identify the nature of these sources, whether they are really direct collapse black holes (DCBHs) or a yet undiscovered population of heavily obscured black holes at high redshift. Our primary goal is to detect emission lines in order to obtain the spectroscopic redshift, as well as some other features, e.g., broad-lines and/or outflows. We will use the grating/filter combination of G395M/F290LP with FULL/NRSIRS2RAPID. By using the dual slit dither (S200A1 and S200A2), we will obtain complete wavelength coverage from 2.87um to 5.14um in high-resolution R~2700. We will also use MIRI LRS slit spectroscopy for 3 objects, which are detected in all Spitzer/IRAC and MIPS24um bands, to measure their MIR spectra with significant S/N, covering 5-12um wavelength ranges with R~100.
+We will use NIRspec FS high-resolution spectroscopy for 7 objects with robust Spitzer/IRAC 3.6 and 4.5um detections to identify the nature of these sources, whether they are really ==direct collapse black holes (DCBHs)== or a yet ==undiscovered population of heavily obscured black holes at high redshift==. Our primary goal is to detect emission lines in order to obtain the spectroscopic redshift, as well as some other features, e.g., broad-lines and/or outflows. We will use the grating/filter combination of G395M/F290LP with FULL/NRSIRS2RAPID. By using the ==dual slit dither (S200A1 and S200A2)==, we will obtain complete wavelength coverage from ==2.87um to 5.14um in high-resolution R~2700==. We will also use MIRI LRS slit spectroscopy for 3 objects, which are detected in all Spitzer/IRAC and MIPS24um bands, to measure their MIR spectra with significant ==S/N, covering 5-12um wavelength ranges with R~100.==
+## GO 1764 A Comprehensive JWST View of the Most Distant Quasars Deep into the Epoch of Reionization
+**Principal Investigator:** Xiaohui Fan
+**PI Institution:** University of Arizona
+**Allocation:** 64.2 hours
+Observing Template: NIRCam/Imaging  
+MIRI/Imaging  
+NIRSpec/FS  
+NIRSpec/IFU   
+MIRI/MRS
+### TARGET
+J1007+2115
+J0313-1806
+J1342+0928
+### ABSTRACT
+We propose to carry out comprehensive JWST observations of the ==only three quasars currently known at z>7.5==, deep into the ==epoch of reionization== (EoR). Luminous quasars at the highest redshift directly probe the formation of the ==earliest supermassive black holes (SMBHs)== in the universe, enable studies of the evolution of early massive galaxies and their connections to SMBH growth, and provide sensitive constraints on the ==state of the intergalactic medium (IGM)== during the EoR not accessible with other probes.
+
+We have carefully designed a JWST program to address outstanding science opportunities that EoR quasars provide, capitalizing on the transformative capabilities of JWST. By employing a combination of imaging and spectroscopic observations using NIRCam, NIRSpec, MIRI and NIRISS, our program will (1) ==detect the stellar continuum and nebular emission of quasar host galaxies== only 680 Myr after the Big Bang, to probe ==host galaxy assembly and to search for signatures of outflow and feedback==, (2) map the ==large scale quasar environment==, to test quasar formation models in the context of early structure formation, (3) yield ==reliable estimates== of the SMBH masses and constrain physical properties of the quasar broad-line regions, and (4) provide the most accurate ==measurement of the IGM neutral fraction== at z=7.5 and detect weak metal absorption features, to map the history of reionization and IGM enrichment.
+
+These three EoR quasars constitute the culmination of decades of searches using all-sky surveys. They are the best JWST targets for quasars at the current redshift frontier and provide the definitive reference dataset for future EoR quasar and IGM science using JWST.
+### OBSERVING DESCRIPTION
+OBSERVING DESCRIPTION
+
+The primary targets of our observations are the three most distant known quasars, J0313-1806 (z=7.64), J1007+2115 (z=7.52), and J1342+0928 (z=7.54), with a number of different observing modes. Quasar J0313-1806 is a newly discovered unpublished quasar. Quasar J1342+0928 will only be observed with NIRCam and MIRI imaging modes because the other modes we describe below are covered by GTO programs. We will also observe PSF stars for each quasar in the imaging or IFU modes. Below is the summary of the observing plan for each observing mode:
+
+1. NIRCam Imaging (visit 1 and 2): three quasars, 9.1 hours science; 16.7 hours total.
+
+The goal of the ==NIRCam imaging is to detect the quasar host galaxy of these three quasars with accurate PSF subtraction==, and to detect galaxies in the quasar fields.
+
+-- Visit 1: We will observe each of our primary targets with NIRCam imaging in three filter pairs, including three intermediate band and two broad band filters, with a total exposure time of 3768 sec for two pairs and 2802 sec for the other one. Because of the bright central quasar, we will use SHALLOW4 readout mode to avoid saturation. We will use INTRAMODULE three-points dither plus standard three-point subpixel dither pattern to improve the sampling, since our bluest filters are undersampled, and to fill the gaps between the SW detectors. We will use the FULL arrays to maximize the sky coverage to probe the environments of the quasars and to identify additional PSF stars.
+
+-- Visit 2: We will observe a nearby late M-dwarf as our PSF star of each quasar. For the PSF star, we will use a 160P subarray readout and BRIGHT1 readout mode to avoid saturation.
+
+2. MIRI Imaging (visit 3 and 4): three quasars, 4.4 hours science; 7.3 hours total.
+
+-- Visit 3: The goal of the MIRI imaging is to detect the quasar ==host galaxy in the shortest MIRI wavelength filter (F560W)== which covers the H_alpha emission line at z~7.6. We will use FAST readout mode with a four-point dither pattern to improve sampling.
+
+-- Visit 4: We will observe the same PSF star of each quasar as in Visit 2.
+
+3. MIRI MRS (visit 5): quasars J1007+2115 and J0313-1806, 4.2 hours science, 6.8 hours total.
+
+The goal of the MIRI MRS observation is to obtain a high S/N mid-IR spectrum of each quasar to study quasar physics and to use as a quasar spectral template for future high-redshift quasar JWST observations. Therefore, we require a complete MRS wavelength coverage with all three grating settings. We will use SLOW readout mode with 2500 sec exposure in each setting for each quasar. We will carry out simultaneous imaging with MIRI in the F560W filter, which we will use to identify additional field PSF stars.
+
+4. NIRSpec Fixed Slits (FSs) (visit 6): quasars J1007+2115 and J0313-1806, 1.8 hours science, 5.2 hours total.
+
+The goal of the NIRSpec FSs observations is to obtain high quality near-IR spectra, uncontaminated by telluric features, to study IGM reionization and enrichment, and to provide a prototype quasar template for future high-redshift quasar JWST observations. We will use three high resolution settings with both slits (S200A1 and S200A2) to cover the wavelength range redward of rest-frame 1140A of the quasar SED. We will carry out 19 minute exposures in each of the G140H/F100LP, G235H/G170LP, and G395H/F290LP configurations.
+
+5. NIRSpec IFU (visit 7 and 8): quasars J1007+2115 and J0313-1806, 22.6 hours science, 29.6 hours total.
+
+The goal of the NIRSpec IFU observation is to obtain emission line flux and velocity maps of the quasar host galaxy, after PSF subtraction.
+
+-- Visit 7: We will observe our primary targets with the G395M grating with a total integration of 10 hours per target, broken into multiple dithers. We will also carry out a 1.2 hour MSA leakage calibration exposure at the first dither position.
+
+-- Visit 8: We will observe a nearby bright F star as our PSF star for each quasar. We will use RAPID readout mode to minimize overhead.
+
+6. Parallel observations with NIRISS: three quasars, 8.1 hours science.
+
+We request parallel observations in NIRISS imaging mode with NIRCam as the primary instrument in Visit 1. The NIRISS observations will image the field ~ 8-13 cMpc from the central quasar, significantly expanding the survey volume for the quasar environment study. We choose F090W and F115W filters for a dropout selection and will reach a similar depth to the NIRCam imaging. A direct comparison to the dropout sources in the NIRISS and NIRCam fields will provide us with a unique and important constraint on the clustering of galaxies around the three z~7.5 quasars.
+
+# INTERMEDIATE MASS BH
+## GO 1983 Uncovering Intermediate Mass Black Holes with JWST: Pushing the Frontier
+**Principal Investigator:** Shobita Satyapal
+**PI Institution:** George Mason University
+**Allocation:** 11.1 hours
+Observing Template: NIRSpec/IFU
+### TARGET
+J1601
+J1201
+### ABSTRACT
+Intermediate mass black holes (IMBHs) in local low metallicity dwarf galaxies, with masses between one hundred and a million solar masses are crucial to our understanding of ==the origins of supermassive black holes (SMBHs) and will give rise to the prime targets for LISA==. Despite their importance, ==very little is known about their mass distribution and the host galaxies in which they reside==. Dynamical studies cannot uncover the lowest masses, and ==accreting IMBHs have eluded detection by optical spectroscopic, mid-infrared color, X-ray, and radio surveys due either to obscuration of the central engine, or dilution of the accretion activity from star formation in the host galaxy.== In fact, there is currently ==no direct evidence for black holes with masses between ~ 150 - 10,000 solar masses==, a gap of roughly two orders of magnitude in mass. In this pilot program, we propose to push the frontier in the low mass regime by observing ==two nearby low mass, low metallicity dwarf galaxies==%%选源：选2个近的低质量低金属丰度的矮星系，可能拥有中等质量黑洞%% with the most convincing evidence yet for optically elusive AGNs in the lowest mass galaxies. Using the NIRSpec IFU, this pilot program is designed to unveil a ~1000 solar mass IMBH, an order of magnitude lower than any other nuclear black hole known in a galaxy thus far and will be the lowest mass galaxy in the Universe known to host an AGN. With a modest investment in observing time, this study can not only make a breakthrough in the IMBH mass frontier, but pave the way to ==discover more elusive AGNs in the low mass regime==. This program can only be carried out using the unique capabilities of JWST.
+### OBSERVING DESCRIPTION
+The goal of this proposal is to obtain near infrared spectroscopy of two dwarf galaxies with compelling evidence for ==optically elusive active galactic nuclei (AGNs) in order to search for coronal lines (CLs)==%%？什么是elusive active galactic nuclei%%, and to obtain intensity and kinematic maps to confirm their hidden AGNs and constrain their properties. To exploit the maximum sensitivity of JWST and observe the infrared CLs with the highest ionization potentials (IPs) that are sensitive to the ionizing SED, we request NIRSpec IFU medium resolution observations in ==two gratings (G235M and G395M)== for our two targets enabling the detection of key diagnostic CLs necessary to achieve our science goals that are impossible to observe from the ground.
+
+Given carefully determined S/N requirements on the various emission lines, we ==request ~3600 sec and ~7100 sec, respectively, for each target with the G235M and G395M grating settings==. We will use NSIRS2RAPID readout with 60 groups & 1 integration at four dither positions for the brighter target and 60 groups & 2 integrations at four dither positions for the fainter target. No saturation issues are expected based on ETC estimates.
+
+Since we are using NIRSpec, LeakCals will be necessary, but because our primary goal is to ==obtain the emission line fluxes==, we follow the recommended LeakCal strategy and will obtain a single LeakCal at only one position with the same exposure time as our observation. Based on the expected pointing accuracy of JWST and the fact that our targets have SDSS coordinates, we will not be requiring any target acquisition; our targets are compact and will fit completely in the NIRSpec 3"x3" FOV. We will also be able to perform background subtraction within the FOV, increasing the efficiency of our program.
+
+# LOW LUMINOSITY AGN
+## GO 2016 Revealing Low Luminosity Active Galactic Nuclei (ReveaLLAGN)
+**Principal Investigator:** Anil Seth
+**PI Institution:** University of Utah
+**Allocation:** 32.4 hours
+Observing Template: NIRSpec/IFU  
+MIRI/MRS
+### TARGET
+NGC-4395
+NGC-4258
+NGC-1052
+M-94
+M-81
+SOMBRERO
+M-87
+### ABSTRACT
+JWST will be the most sensitive tool ever built for studying the accretion onto supermassive black holes (SMBHs) at the centers of galaxies. While quasars and bright active galactic nuclei (AGN) provide spectacular examples of this accretion, a vast majority of galaxies have black holes accreting at much lower rates. Although these low luminosity AGN (LLAGN) are not as well studied or understood as their brighter counterparts, it is clear their inner structures differ significantly from the accretion disks in luminous AGN. JWST spectroscopy provides a unique opportunity to significantly advance our understanding of LLAGN. Our proposal focuses on getting IFU spectra from 1.7 to 28 microns for seven of the nearest LLAGN spanning four orders of magnitude in both black hole mass and accretion rate (these will also be complemented by two GTO targets). JWST's spatial resolution will enable easy separation of the AGN from the host galaxy light providing us with spectral templates of low luminosity AGN spectra in the infrared for the first time. Detailed physical modeling of both the line emission and spectral energy distributions of these LLAGN spectra will reveal the physical structure of low luminosity AGN, and how it varies with the mass and accretion rate of the SMBH. We will also use these spectral templates to empirically determine the most sensitive lines and SED features for spectroscopically and photometrically identifying LLAGN in more distant galaxies where the AGN won't be spatially resolved. ReveaLLAGN will both significantly enhance our understanding of AGN and open a new window for future AGN studies with JWST.
+### OBSERVING DESCRIPTION
+
+## GO 
+**Principal Investigator:** 
+**PI Institution:** 
+**Allocation:** 
+Observing Template: 
+### TARGET
+
+### ABSTRACT
+
+### OBSERVING DESCRIPTION
+
+## GO 
+**Principal Investigator:** 
+**PI Institution:** 
+**Allocation:** 
+Observing Template: 
+### TARGET
+
+### ABSTRACT
+
+### OBSERVING DESCRIPTION
+
 ## GO 
 **Principal Investigator:** 
 **PI Institution:** 
