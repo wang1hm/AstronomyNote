@@ -298,50 +298,77 @@ The discovery of a number of black hole (BH) galaxy relations has shown that ==t
 ### OBSERVING DESCRIPTION
 
 # SMBH host galaxies
-## GO 
-**Principal Investigator:** 
-**PI Institution:** 
-**Allocation:** 
+## GO 1813 Unveiling Stellar Light from Host Galaxies of z~6 Quasars(Jiang in the group)
+**Principal Investigator:** Madeline Marshall
+**PI Institution:** Dominion Astrophysical Observatory
+**Allocation:** 16.0 hours
+Observing Template: NIRCam/Imaging
+### TARGET
+QUASAR-SDSS-J2054-0005
+PSF-STAR-SDSS-J2130+0028
+QUASAR-SDSS-J0129-0035
+PSF-STAR-SDSS-J0101+0007
+### ABSTRACT
+We propose to observe ==two z~6 quasars== with NIRCam to prove the detectability of their host galaxies. High-z quasars outshine their hosts at ==rest frame UV/optical wavelengths==. ==Observing the underlying host galaxy emission has eluded HST, even with advanced PSF-modelling techniques.== However, detailed simulations predict that the improved resolution of JWST/NIRCam will result in successful detections of these host galaxies for the first time, with our observational strategy predicted to ==yield optimal detections==. The two quasars selected for this pilot program were ==comprehensively studied with HST and ALMA==, and are expected to have ==relatively low contrast between the quasar and host, improving detectability.== %%选的是已经有HST和ALMA观测的源，且quasar和host的contrast较小，探测更好%%The proposed pilot program will demonstrate the capability of JWST to observe high-z quasar host galaxies, and provide valuable insight into the growth of black holes and galaxies in the early Universe, and of the relationships between black holes and their host galaxies.
+
+With these NIRCam data we will:  
+(a) ==Characterize the rest frame UV/optical SEDs of these quasar host galaxies==, determining their star formation histories and dust content  
+(b) Determine the stellar mass of the hosts, allowing us to ==measure the black hole–stellar mass ratio for high-z quasars for the first time==  
+(c) Compare the ==stellar (JWST) and gas (ALMA) properties== of the galaxies such as their star formation rates, sizes, morphologies and masses, to see the full picture of these host galaxies  
+(d) Study the ==environments of these high-z quasars==, photometrically identifying and characterizing any potential companion galaxies.
+### OBSERVING DESCRIPTION
+We propose to obtain NIRCam photometry of the two quasars SDSS J0129-0035 at z=5.78 and SDSS J2054-0005 at z=6.04, with the aim of detecting and characterising their host galaxies. We will use the ==F150W, F200W, F277W, F356W and F444W filters==, with exposure times of ==7.5 ks 
+for the short-wavelength filters and 5 ks for the long-wavelength filters==. %%为什么长波短波曝光时间不一样？%%These will be observed with the ==8-point small-grid dither pattern for accurate sub-pixel sampling of the PSF.==
+
+Alongside these quasar observations, we will ==observe two stars to accurately characterize the instrument PSF,== to be used for detailed point-source modelling of the quasar to detect the underlying host galaxy. These PSF stars SDSS J0132-0002 and SDSS J2130+0028 are chosen as they are ==M-type stars with colors very similar to those of the quasars, so as to minimize chromatic PSF errors==. They are faint enough to be detected with the NIRCam full array, are close to the quasars on the sky, and are single stars with no nearby contaminating objects. These PSF stars will be observed directly after the quasar observations, and at the same position angle and similar position on the detector, to minimize any temporal or spatial variation in the PSF so that the quasar PSF is modelled as accurately as possible.
+## GO 1967 A Complete Census of Supermassive Black Holes and Host Galaxies at z=6
+**Principal Investigator:** Masafusa Onoue
+**PI Institution:** Peking University
+**Allocation:** 47.0 hours
+Observing Template: NIRSpec/FS  
+NIRCam/Imaging
+### TARGET
+J0217-0208
+J0844-0052
+J0844-0132
+J0911+0152
+J0918+0139
+J1146+0124
+J1146-0005
+J1425-0015
+J1512+4422
+J1525+4303
+J2236+0032
+J2255+0251
+### ABSTRACT
+We propose NIRSpec Fixed-Slit + NIRCam broad-band observations of ==12 of the lowest-luminosity quasars known at z=6 to obtain the first full census of the black holes and host galaxies of the earliest quasars.== We will derive the ==well-calibrated Hbeta-based masses (M_BH)== of supermassive black holes (SMBHs) with NIRSpec's G395M grism, from which we ==characterize the distribution functions of M_BH and Eddington ratios==, eliminating severe previous selection biases due to the limitation of ground-based NIR spectroscopy. We will measure their ==host stellar masses== with NIRCam's F150W and F356W filters to calculate the ==SMBH-to-stellar mass ratios==, from which we investigate the origin of the tight correlation between M_BH and host bulge mass observed ==in the present-day universe==. ==Our sample size will allow us to stringently determine whether SMBHs have grown in parallel with their hosts== (as suggested by recent ALMA observations), or ==if one evolves faster than the other==. Our sample is the least biased of all high-z quasar samples, allowing us to derive a comprehensive picture of the SMBHs and their host galaxies within the first billion years of the universe.%%选高红移目前已知最弱的源以避免bias，进而看早期SMBH-to-stellar mass ratio和现在的宇宙有没有区别，和ALMA对比%%
+### OBSERVING DESCRIPTION
+This program is a joint NIRSpec Fixed-Slit Spectroscopy and NIRCam imaging of 12 of the lowest-luminosity quasars known at z=6, beyond the sensitivity limits of ground-based near-infrared spectroscopy (y=23-24 AB mag). The NIRSpec observations with the G395M grism are designed to cover the redshifted ==Hbeta emission line at 3.44-3.60 micro==n and its underlying continua, from which robust virial masses of supermassive black holes (SMBHs) will be measured with the single-epoch method. The NIRCam imaging with F150W and F356W filters straddling the 4000 Angstrom breaks will enable us to measure the ==stellar masses and stellar populations of the host galaxies==, after carefully subtracting the PSF components in the broad-band images. The 2D PSF+galaxy decomposition will give us an ==estimate of the stellar light contamination to the observed continuum fluxes== in the NIRSpec spectrum covering the same wavelength range. ==Thanks to the low luminosities of our sample, the black hole masses and stellar properties of the host galaxies will constrain the mass distribution function and the stellar-to-SMBH mass ratios of the z=6 quasars for the first time.==%%？为什么low luminosities就可以限制质量分布函数以及stellar-to-SMBH mass ratios了%%
+## GO 2446 Illuminating the AGN-Galaxy Connection with JWST: AGN Host Demographics During the Era of Galaxy Assembly（AR PROJECT）
+**Principal Investigator:** Dale Kocevski
+**PI Institution:** Colby College
+**Allocation:** AR program
 Observing Template: 
 ### TARGET
-
+AR program
 ### ABSTRACT
-
+AGN have become key components of most galaxy evolution models, yet several open issues remain in our understanding of ==how the link between galaxies and their SMBHs is established and maintained==. We propose to survey the host demographics of AGN during the ==first quarter of cosmic tim==e in order to understand ==when and how the AGN-galaxy connection is established.== Our study will use data from the ==CEERS ERS program==, whose NIRCam, MIRI and NIRSpec observations will enable a wide range of AGN-related science. We will use ==a combination of X-ray data and CEERS MIRI and NIRSpec data to create a multiwavelength sample of AGN== and use it to conduct the following science: (1) ==NIRCam imaging will provide rest-frame optical morphologies of AGN hosts at z=2-6.== We will trace the emergence of bulge and disk structures and their connection to SMBH growth during the era of galaxy assembly and determine the role that ==galaxy mergers play in fueling AGN activity== during this epoch. (2) We will use ==MIRI color diagnostics== to perform a census of obscured SMBHs out to z=2, revealing the properties of this previously ==hidden population and determining how the fraction of obscured AGN evolves with redshift.== (3) We will use NIRSpec data to conduct a survey of ==AGN-driven outflows== at z>3 and measure the impact they have on their host galaxies. (4) We will search for the ==seeds== of today's SMBHs at Cosmic Dawn by using NIRSpec to find high ionization lines from growing SMBHs at z>7. As part of our science analysis, we will ==release value-added catalogs of morphologies, emission line fluxes, and AGN identifications to supplement the CEERS dataset and directly enable future community use of JWST.==
 ### OBSERVING DESCRIPTION
 
-## GO 
-**Principal Investigator:** 
-**PI Institution:** 
-**Allocation:** 
-Observing Template: 
+# OTHER
+## GO 1554 Nebular Line Diagnostics in a Merger at Cosmic Dawn
+**Principal Investigator:** Roberto Decarli
+**PI Institution:**  INAF-Osservatorio di Astrofisica e Scienza dello Spazio
+**Allocation:** 7.5 hours
+Observing Template: NIRSpec/IFU
 ### TARGET
-
+Group PJ308-21
 ### ABSTRACT
-
+At ==z>6== (when the Universe is <1 Gyr old), ==luminous quasars are exceptionally active: their central engine is a rapidly accreting supermassive== (~1e9 Msun) black hole which resides in an intensely star-forming galaxy that is ab order of magnitude more massive than typical galaxies at these redshifts. How can we account for such a ==rapid growth== of these extreme sources? The exceptional quasar PJ308-21 may offer an answer. ==High-resolution HST and ALMA imaging demonstrates that the quasar host is undergoing a merger with one or more satellite galaxies.== For the first time at these redshifts, ==host galaxy starlight is detected around a luminous quasar.== ==A prominent Ly-alpha halo, detected with MUSE on the ESO/VLT,== partially overlaps the companion galaxy. ==The data in hand already show all the agents of rapid galaxy growth at play: gas, dust, star formation, and nuclear activity==. Here we propose to capitalize on the unprecedented capabilities of JWST to secure NIRSpec IFU observations, creating ==Halpha, Hbeta, [OIII] and [NII] maps== which will enable: 1) a characterization of the ==ionized gas physical properties== (metallicity, ionization parameter, powering mechanism) and a test for the ==presence of outflows;== 2) an estimate of the stellar mass of the ==satellite galaxy==; 3) a ==precise timing of the star formation event==, which we will use to understand the role of the gravitational interaction in triggering the starburst; 4) a test of the ==origin of the Ly-alpha halo==. These observations will lead to a fundamental new understanding of the build-up of massive galaxies and black holes in the early universe.%%选源：z=6的有HST/ALMA/ESO/VLT观测的正在merger satellite galaxies的quasar%%
 ### OBSERVING DESCRIPTION
+We propose to secure NIRSpec IFU observations of the ==quasar+galaxy merging system PJ308-21 at z=6.234.== Very recently, ==ALMA has provided first unambiguous evidence of satellite galaxies around quasars==. The targeted system is the poster child of merging galaxies at z>6: High angular resolution (~0.2" or ~1 kpc) observations of the ==rest-frame UV starlight emission (from HST) and of the [CII] and rest-frame FIR dust continuum (from ALMA)== reveal the interplay of gas, dust, star formation, and nuclear activity. We can explain the intricate morphology with a current dynamical model invoking the tidal stripping of one or more satellite galaxies orbiting in close proximity to the quasar host galaxy. In addition, a bright Ly-alpha halo extends on the Eastern side of the quasar host, partially overlapping the satellite galaxy.
 
-## GO 
-**Principal Investigator:** 
-**PI Institution:** 
-**Allocation:** 
-Observing Template: 
-### TARGET
-
-### ABSTRACT
-
-### OBSERVING DESCRIPTION
-
-## GO 
-**Principal Investigator:** 
-**PI Institution:** 
-**Allocation:** 
-Observing Template: 
-### TARGET
-
-### ABSTRACT
-
-### OBSERVING DESCRIPTION
-
+The system can be covered in only two IFU pointings. A third pointing off-source will be used for background subtraction. We will target key optical diagnostic emission lines: Halpha, Hbeta, [OIII], [NII], as well as the stellar optical continuum emission, all in a single spectral setup. The goals of the project include measuring the instantaneous star formation rate, reconstructing the kinematics of the ionized gas, constraining metallicity, ionization parameter, probing the origin of the Ly-alpha halo, measuring its metallicity and ionization parameter, and assessing the stellar mass budget of the system.
 ## GO 
 **Principal Investigator:** 
 **PI Institution:** 

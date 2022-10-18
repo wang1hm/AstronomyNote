@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5d236897a936ac12",
@@ -140,7 +141,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "33ec65cf8b8278ea",
+  "active": "5d99fe8c255e8d1d",
   "lastOpenFiles": [
     "().md",
     "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
