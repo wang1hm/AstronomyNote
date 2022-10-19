@@ -381,7 +381,35 @@ We propose to secure NIRSpec IFU observations of the ==quasar+galaxy merging sys
 
 The system can be covered in only ==two IFU pointings==. A third pointing off-source will be used for background subtraction. We will target ==key optical diagnostic emission lines: Halpha, Hbeta, [OIII], [NII]==, as well as the stellar optical continuum emission, all in a single spectral setup. The goals of the project include measuring the instantaneous star formation rate, reconstructing the kinematics of the ionized gas, constraining metallicity, ionization parameter, probing the origin of the Ly-alpha halo, measuring its metallicity and ionization parameter, and assessing the stellar mass budget of the system.
 
-# FIRST LIGHT
+## GO 2057 A JWST Study of the Link Between Supermassive Black Holes and Galaxies at Cosmic Noon
+**Principal Investigator:** Yue Shen
+**PI Institution:** University of Illinois at Urbana - Champaign
+**Allocation:** 22.4 hours
+Observing Template: NIRCam/Imaging  
+NIRSpec/IFU
+### TARGET
+RM032
+RM052
+RM275
+RM312
+RM332
+RM387
+RM401
+RM470
+RM549
+RM734
+### ABSTRACT
+The measurement of the ==scaling relations between supermassive black hole (SMBH) mass and the properties of the host galaxy at cosmic noon (z~2)== is crucial to understanding the co-evolution (or not) of ==SMBHs and galaxies, the nature of AGN feedback and self-regulated BH growth, and the forecast for the stochastic gravitational wave background from mergers of SMBHs==. Given the difficulties of acquiring both reliable BH masses and host galaxy measurements in this regime, ==there is currently no consensus on whether or not such correlations exist at z~2.== We propose pioneering JWST NIRCam ~1-5 micron imaging and NIRSpec IFU ~1-2 micron spectroscopy to ==constrain the correlations between SMBH mass and host stellar velocity dispersion, stellar mass and luminosity,== using a unique sample of ==ten z~2 quasars with BH masses measured directly from reverberation mapping==.%%选源：10个z=2的有反响映射黑洞质量的quasar%% This pilot JWST program is poised to deliver the most definitive constraints on the high-z SMBH-galaxy scaling relations to date, paving the way for future more ambitious programs. It will also enable a broad range of science, ==from stellar populations of massive quasar host galaxies, to kpc-scale quasar-driven outflows (e.g., in [OIII]5007), and provide a benchmark sample for comparative studies of massive galaxies at z~2== (e.g., star- forming and quiescent galaxies, obscured AGN hosts, etc).
+### OBSERVING DESCRIPTION
+We will perform NIRCam imaging and NIRSpec IFU spectroscopy for ten z~2 quasars with direct black hole mass estimates based on reverberation mapping. The NIRCam imaging is primarily used to measure morphology, local environment, and stellar populations of the hosts upon imaging decomposition in multiple bands. The NIRSpec IFU spectroscopy is primarily used to measure the stellar velocity dispersion and [O III] kinematic maps. The ten targets are all within a 1.5-deg-radius field so slew overhead is insignficant.
+
+Each target will have two observations, and each observation can be fit in a single visit. All targets can be considered compact sources (with sizes <1") in sparse extragalactic fields. All targets are relatively bright, with average J-band magnitude of 19.2 (Vega).
+
+The first visit/observation is NIRCam imaging in two pairs of short+long-wave filters (F090W+F277W, F150W+F444W). We will use the SUB640 subarray and offset the target to avoid the central detector gaps. For each filter combination, we will adopt a 4-point STANDARD subpixel dither pattern and a total exposure time of ~480 or ~320 sec. This dither pattern is sufficient to reach Nyquist sampling of the PSF for all filters but F090W, whose PSF is still slightly undersampled. This compromise is acceptable since the F090W filter samples the rest-frame UV and is not primarily used for morphological measurements and stellar mass estimation. Increasing the number of dither points will lead to substantial extra overhead with minimal improvements for our primary science goals. We will use field stars in all NIRCam pointings for the ten targets to construct a composite PSF reference for our quasar/host decomposition.
+
+The second visit/observation is the NIRSpec IFU spectroscopy. We will use the G140M/F100LP setup. No PSF subtraction is required for the IFU observations. No instrument-level target acquisition is required given the compact sizes of our targets and the pointing accuracy. We will use a 4- point dither pattern with a total exposure time of ~2400 sec. For each visit we will include a WAVECAL exposure. The sky background can be considered uniform for our targets and the background level is sufficiently low for our targets, therefore MSA leakage is not important (only mild fractional increase in background level) and we do not require a separate MSA leakcal exposure. We will manually process the dithered exposures for background subtraction if necessary.
+
+# FIRST LIGHT or EoR
 ## GO 1760 First Accreting Black Hole Candidates: Infrared-dropout Heavily Obscured X-ray AGNs
 **Principal Investigator:** Hyewon Suh
 **PI Institution:** NOIRLab - Gemini North (HI)
@@ -457,7 +485,35 @@ The goal of the NIRSpec IFU observation is to obtain emission line flux and velo
 6. Parallel observations with NIRISS: three quasars, 8.1 hours science.
 
 We request parallel observations in NIRISS imaging mode with NIRCam as the primary instrument in Visit 1. The NIRISS observations will image the field ~ 8-13 cMpc from the central quasar, significantly expanding the survey volume for the quasar environment study. We choose F090W and F115W filters for a dropout selection and will reach a similar depth to the NIRCam imaging. A direct comparison to the dropout sources in the NIRISS and NIRCam fields will provide us with a unique and important constraint on the clustering of galaxies around the three z~7.5 quasars.
+## GO 2028 Mapping A Distant Protocluster Anchored by A Luminous Quasar in the Epoch of Reionization
+**Principal Investigator:** Feige Wang
+**PI Institution:** University of Arizona
+**Allocation:** 15.9 hours
+Observing Template: NIRSpec/MOS  
+NIRSpec/IFU
+### TARGET
+J0910Q-MSA
+J0910Q
+### ABSTRACT
+Theoretical models predict that luminous quasars should act as ==signposts for protoclusters in the young Universe==. However, despite extensive searching, protoclusters traced by quasars have not yet been discovered in the epoch of reionization (EoR). Recent ALMA/JCMT sub-mm observations and Subaru narrow/broad band imaging of ==a luminous quasar at z=6.63 have finally revealed a spectacular overdensity of [CII] emitters, sub-mm galaxies, and Lyman alpha emitters,%%？为什么这几条线代表了protocluster的quasar activity%% suggesting that it is the most distant known protocluster harboring quasar activity, and the first such system discovered in the EoR==. %%选源：ALMA/JCMT和Subaru看到的一个z=6.63的protocluster有quasar activity%%An approved HST program will mosaic two 3.6'x3.6' fields, centered at the quasar and a galaxy merging system within this protocluster, respectively. The quasar, ==with both strong gas outflow as indicated by broad absorption lines and inflow as indicated by multiple metal absorption lines, is hosted by an extended massive merging galaxy.== Moreover, the quasar host features an ==extremely broad [CII] line with a FWHM of 930 km/s, suggesting that this quasar resides in a deep gravitational potential and could be a progenitor of the brightest cluster galaxy (BCG).==%%？为什么极宽的[CII]代表深引力场%%
 
+We propose NIRSpec MSA observations to ==identify galaxies physically associated to this protocluster== by targeting galaxies selected from HST observations. ==The MSA observations will allow us to map the 3D structure of the protocluster==, measure AGN fraction of protocluster member galaxies, and characterize the physical properties of galaxies in the most dense structure yet known in the EoR. In addition, we will perform NIRSpec IFU observation of the quasar to study the formation of the BCG progenitor.
+### OBSERVING DESCRIPTION
+**Observation 1 - NIRSpec MSA observation of a field around the central luminous quasar**  
+This is NIRSpec MSA follow-up of high redshift galaxies selected from HST/WFC3 imaging. The HST observations are scheduled in early 2021 and would give us plenty time to select targets.  
+We use the G395M/F290LP setup for observing Hbeta, [OIII] 4959, 5007, and Halpha emission lines of galaxies at z=6.6. The MSA observation will also target the luminous quasar, which will deliver a very high quality spectrum of the quasar.  
+We also perform coordinated parallel observations with NIRCam. We use the F115W+F356W and F070W+F444W combinations to select z~6.6 galaxies in an additional sky area within this giant protocluster.
+
+**Observation 2 - NIRSpec MSA observation of a field centered at a merging system in the protocluster** This observation is similar to Observation 1 but centered at a galaxy merger within the protocluster.
+
+**Observation 3 - NIRSpec IFU observations of the central quasar**  
+The central quasar has strong outflow and inflow features and is hosted by a massive galaxy merger. We will use the IFU G395H/F290LP to map the strongest optical nebular lines (Hbeta, [OIII], Halpha, [NII]). The main science goals of this observation are characterizing the quasar outflow, detecting star formation in quasar host galaxy, and investigating the black hole fueling.
+
+We will observe this object with IFU PRISM/CLEAR for detecting quasar host galaxy in continuum over the whole wavelength range covered by NIRSpec. We include leakcal at the first dither position for the PRISM observation.
+
+We are using no target acquisition (i.e. point-and-shoot) for this observation. At any of the constrained PA range there are Gaia GS that can be selected for guiding and that will ensure the proper location of the target within the IFU aperture, with the required accuracy.
+
+We are using NRSIRS2RAPID for a better identification and rejection of cosmic rays.
 # INTERMEDIATE MASS BH
 ## GO 1983 Uncovering Intermediate Mass Black Holes with JWST: Pushing the Frontier
 **Principal Investigator:** Shobita Satyapal
@@ -492,19 +548,11 @@ M-81
 SOMBRERO
 M-87
 ### ABSTRACT
-JWST will be the most sensitive tool ever built for studying the accretion onto supermassive black holes (SMBHs) at the centers of galaxies. While quasars and bright active galactic nuclei (AGN) provide spectacular examples of this accretion, a vast majority of galaxies have black holes accreting at much lower rates. Although these low luminosity AGN (LLAGN) are not as well studied or understood as their brighter counterparts, it is clear their inner structures differ significantly from the accretion disks in luminous AGN. JWST spectroscopy provides a unique opportunity to significantly advance our understanding of LLAGN. Our proposal focuses on getting IFU spectra from 1.7 to 28 microns for seven of the nearest LLAGN spanning four orders of magnitude in both black hole mass and accretion rate (these will also be complemented by two GTO targets). JWST's spatial resolution will enable easy separation of the AGN from the host galaxy light providing us with spectral templates of low luminosity AGN spectra in the infrared for the first time. Detailed physical modeling of both the line emission and spectral energy distributions of these LLAGN spectra will reveal the physical structure of low luminosity AGN, and how it varies with the mass and accretion rate of the SMBH. We will also use these spectral templates to empirically determine the most sensitive lines and SED features for spectroscopically and photometrically identifying LLAGN in more distant galaxies where the AGN won't be spatially resolved. ReveaLLAGN will both significantly enhance our understanding of AGN and open a new window for future AGN studies with JWST.
+JWST will be the most sensitive tool ever built for studying the accretion onto supermassive black holes (SMBHs) at the centers of galaxies. While quasars and bright active galactic nuclei (AGN) provide spectacular examples of this accretion, a vast majority of galaxies have black holes accreting at much lower rates. ==Although these low luminosity AGN (LLAGN) are not as well studied or understood as their brighter counterparts==, it is clear their inner structures differ significantly from the accretion disks in luminous AGN. JWST spectroscopy provides a unique opportunity to significantly advance our understanding of LLAGN. Our proposal focuses on ==getting IFU spectra from 1.7 to 28 microns for seven of the nearest LLAGN spanning four orders of magnitude in both black hole mass and accretion rate== %%选源：最近的七个LLAGN，相差四个量级的黑洞质量和吸积率%%(these will also be complemented by two GTO targets). JWST's spatial resolution will enable easy ==separation of the AGN from the host galaxy light providing us with spectral templates of low luminosity AGN spectra in the infrared for the first time.== Detailed physical modeling of both the line emission and spectral energy distributions of these LLAGN spectra will reveal the physical structure of low luminosity AGN, and how it varies with the mass and accretion rate of the SMBH. We will also use these spectral templates to empirically determine the most sensitive lines and SED features for spectroscopically and photometrically ==identifying LLAGN in more distant galaxies where the AGN won't be spatially resolved.== ReveaLLAGN will both significantly enhance our understanding of AGN and open a new window for future AGN studies with JWST.
 ### OBSERVING DESCRIPTION
+The primary goal of our proposal is to ==characterize the infrared SEDs and line emission of seven low luminosity AGN== and to use JWST’s superior sensitivity and spatial resolution to cleanly ==disentangle their nuclear spectra from the surrounding galaxy emission==. We request NIRSpec IFU observations in two gratings (G235H and G395H) and MIRI MRS observations in all three dichroic settings. ==Taken together, these data will provide high-quality “pure” AGN spectra over a wavelength range that is mostly inaccessible from the ground (from 1.7-28 microns)==
 
-## GO 
-**Principal Investigator:** 
-**PI Institution:** 
-**Allocation:** 
-Observing Template: 
-### TARGET
-
-### ABSTRACT
-
-### OBSERVING DESCRIPTION
+We request ==~900s exposures with both NIRSpec and MIRI to obtain S/N>30 spectra== of the AGN over the full wavelength range of the data based on measured broad band fluxes in K band and at 12 microns. We will use a ==standard four point dither== in all observations. In NIRSpec we will obtain LeakCals using single exposures in galaxies with fainter backgrounds, and using a full dither in the brightest three galaxies. For our MIRI observations, the variable background requires that we take offset sky exposures. These are taken in blank fields typically 5’ from the center of the galaxy selected based on WISE 12 micron imaging.
 
 ## GO 
 **Principal Investigator:** 
