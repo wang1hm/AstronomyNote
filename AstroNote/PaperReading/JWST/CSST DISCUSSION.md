@@ -594,13 +594,13 @@ We request ==~900s exposures with both NIRSpec and MIRI to obtain S/N>30 spectra
 
 ## GO 2228 Probing the M87 Supermassive Black Hole with Parsec-Scale Stellar Dynamics
 **Principal Investigator:** Jonelle Walsh
-**PI Institution:** 
-**Allocation:** 
+**PI Institution:** Texas A & M University
+**Allocation:** 9.9 hours
 Observing Template: NIRSpec/IFU
 ### TARGET
-
+M-87
 ### ABSTRACT
-
+The central black hole (BH) of the giant elliptical galaxy M87 has been studied for more than 40 years. ==Similar to Sgr A* at the Galactic Center==, the remarkable increase in angular resolution over the years, culminating in the Event Horizon Telescope image of the M87 BH shadow, has paved the way for a deeper understanding of the compact object and the immediate surrounding environment. ==The EHT image also provided an independent measurement of the M87 BH mass, which is consistent with the most recent stellar-dynamical result but differs by a factor of ~2 from the gas- dynamical determination==. On the surface, the agreement between the EHT and most recent stellar-dynamical BH mass provides an important validation of the stellar-dynamical technique, but it is pressing to scrutinize the apparent agreement further because both measurements relied on extensive modeling and built-in assumptions. We propose to acquire the best high angular resolution spectra to date at the center of M87 using the NIRSpec integral field unit (IFU). We will study parsec-scale stellar dynamics around the M87 BH and extract reliable kinematics deep within the BH gravitational potential. When combined with existing large-scale IFU stellar kinematics and a new, fully general, triaxial, orbit-based modeling approach, we will obtain the most robust stellar-dynamical BH mass for M87. We will further carry out a comprehensive analysis of the error budget, incorporating possible systematic effects. M87 is a pivotal anchor for the upper end of the BH mass - host galaxy relations, and it is crucial to obtain the best possible BH mass measurement.
 ### OBSERVING DESCRIPTION
 ## GO 
 **Principal Investigator:** 
