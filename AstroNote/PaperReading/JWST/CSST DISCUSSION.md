@@ -166,6 +166,18 @@ Winds powered by radiation from active galactic nuclei (AGN) are thought to crit
 ### OBSERVING DESCRIPTION
 We will be observing three ==local Universe AGN host galaxies== using a combination of NIRSpec and MIRI IFUs. The targets were selected as being very promissing hosts of strong molecular outflows. ==The warm gas phase will be observed through MIR H2 emission lines, while the hot phase is traced by the NIR H2 emission==. Several emission lines from ionized gas will be used to trace the ionized outflows, which will allow us to characterize the multi-phase outflows.
 
+## GO 2080 Exploration of the Nuclear Jet Impact on the Interstellar Medium in Seyfert Galaxy NGC 4258
+**Principal Investigator:**  Jason Glenn
+**PI Institution:** NASA Goddard Space Flight Center
+**Allocation:** 24.7 hours
+Observing Template: NIRCam/Imaging
+### TARGET
+M-106
+### ABSTRACT
+Shocks from nuclear jets in galaxies have profound effects on their interstellar medium, injecting energy from the central Active Galactic Nucleus (AGN) which excites and ionizes gas, dissociates molecules, and ablates dust grains. ==Tracers of the shocked gas used to quantify this energy injection can track the response of the interstellar medium to specific forms of feedback.== We propose NIRCam observations of ==nearby Seyfert galaxy NGC 4258== to map these tracers of ionized gas, neutral gas, molecular gas, and dust in the nucleus and inner galactic disk to quantify the impact of the observed ==‘anomalous’ jet on the interstellar medium==. JWST and NIRCam provide a first-ever opportunity to ==observe the impacts of a nuclear jet through the disk of a galaxy at parsec-scale resolution using infrared diagnostics with little extinction by dust.== The comprehensive set of tracers obtained in this program probing the physics of the jet / interstellar medium interaction will provide a detailed picture of feedback in a nearby AGN- hosting galaxy and will inform observations of more distant, high-redshift galaxies whose disks even JWST will be unable to resolve. ==Early cycle JWST imaging of NGC 4258 also provides excellent archival value to the astronomical community, providing a ‘finder-chart’ for specific dynamic regions to be followed-up with future JWST spectroscopic observations.==
+### OBSERVING DESCRIPTION
+NGC 4258 will be imaged with NIRCam in filters ==corresponding to six spectral features and associated filters for continuum subtraction==. ==[Fe II] (1.644 um), Paschen-alpha (1.875 um), H_2 (2.12 um), Paschen-beta (4.05 um), and molecular CO (4.66 um)== will be observed with narrowband filters F164N, F87N, F212N, F405N, F466N and the broad polycyclic aromatic hydrocarbon ==(PAH) 3.3 um== emission line will be observed with the medium F335M filter. ==Medium-band filters F162M, F182M, and F210M== will be used for the continuum subtraction of ==short wavelength== narrow-band filters and ==F300M, F360M, and F430M will be used for continuum subtraction of the long wavelength filters==. ==Three dither positions== in a 2 row x 1 column mosaic will be used to image the extent of the anomalous jet and adjacent unimpacted regions of the galactic disk at any scheduable position angle. The integration times are designed to obtain sufficient signal-to-noise ratios to detect lines in the faintest portions of the inner disk while not saturating in the nucleus, resulting in a total charged time of 24 hours.
+
 # FEEDBACK
 ## GO 1717 Feedback around Supermassive Black Holes in Dusty Nuclei
 **Principal Investigator:** Vivian U
@@ -569,11 +581,43 @@ The primary goal of our proposal is to ==characterize the infrared SEDs and line
 We request ==~900s exposures with both NIRSpec and MIRI to obtain S/N>30 spectra== of the AGN over the full wavelength range of the data based on measured broad band fluxes in K band and at 12 microns. We will use a ==standard four point dither== in all observations. In NIRSpec we will obtain LeakCals using single exposures in galaxies with fainter backgrounds, and using a full dither in the brightest three galaxies. For our MIRI observations, the variable background requires that we take offset sky exposures. These are taken in blank fields typically 5’ from the center of the galaxy selected based on WISE 12 micron imaging.
 
 
-## GO 2080 Exploration of the Nuclear Jet Impact on the Interstellar Medium in Seyfert Galaxy NGC 4258
-**Principal Investigator:**  Jason Glenn
+## GO 2108 Constraining the Seeding and Growth of First Black Holes via Observable Signatures from the Early Universe
+**Principal Investigator:** L. Y. Aaron Yung
 **PI Institution:** NASA Goddard Space Flight Center
-**Allocation:** 24.7 hours
-Observing Template: NIRCam/Imaging
+**Allocation:** AR program
+Observing Template: AR program
+### TARGET
+AR program
+### ABSTRACT
+==The physical processes governing the formation of the seeds of supermassive black holes==, as well as ==how they grow in the early universe==, are two fundamental unanswered questions in galaxy formation and cosmology. The unprecedented sensitivity of JWST's instruments hold exciting potential for probing the growth of galaxies and black holes (BHs) in the very early Universe. However, detailed theoretical models are essential for interpreting these observations. With the goal of establishing a connection between the "ground-level", small-scale physical processes and the "top-level" observable signatures, we propose to construct an efficient, physics-based modeling pipeline that self-consistently simulates the co-evolution of BHs and galaxies, and produces predictions of their physical and observable properties over a wide redshift and halo mass range. This will be done by incorporating two essential new components into a well-established galaxy formation framework: 1) a suite of models representing different scenarios for BH seed formation and BH accretion, and 2) population synthesis and nebular line emission models that account for radiation from both stars and accreting BH. With this novel modeling pipeline, we will be able to 1) explore the implications of different BH seeding and accretion models for physical BH and host properties at high redshift, as well as observable quantities such as emission line luminosity functions, colors, and line ratios; 2) identify observables that can optimally constrain seeding and accretion models; and 3) create mock catalogs containing synthetic spectra and photometry, which can guide the design of future JWST observational programs.
+
+### OBSERVING DESCRIPTION
+
+## GO 
+**Principal Investigator:** 
+**PI Institution:** 
+**Allocation:** 
+Observing Template: 
+### TARGET
+
+### ABSTRACT
+
+### OBSERVING DESCRIPTION
+## GO 
+**Principal Investigator:** 
+**PI Institution:** 
+**Allocation:** 
+Observing Template: 
+### TARGET
+
+### ABSTRACT
+
+### OBSERVING DESCRIPTION
+## GO 
+**Principal Investigator:** 
+**PI Institution:** 
+**Allocation:** 
+Observing Template: 
 ### TARGET
 
 ### ABSTRACT
