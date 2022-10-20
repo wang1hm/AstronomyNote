@@ -454,6 +454,17 @@ LID1166
 We propose to obtain high-resolution NIRspec fixed slits (FS) spectroscopy and MIRI low-resolution slit spectroscopy (LRS) for newly discovered ==infrared-dropout X-ray sources==%%？只在x-ray有观测的意思？%% (i.e., without any optical/NIR counterparts) in the COSMOS field. This is ==possibly the first population of accreting black holes==, and/or heavily obscured AGNs at high redshift, providing a valuable observational constraint on a hidden phase of a significant growth of supermassive black hole (SMBH) in the early universe. Considering that our targets are optically dark, the JWST spectroscopy is the only instrument allowing to obtain the ==high-resolution IR spectra to detect the emission lines to confirm the spectroscopic redshift and classification for these sources.== This proposed study will allow us to explore the most energetic and obscured phase of accreting black holes to understand the formation of SMBHs. Our program will facilitate the first detailed study of yet unknown heavily obscured population at early cosmic epoch.%%确认一个可能是最高红移的目标，infrared-dropout x-ray sources%%
 ### OBSERVING DESCRIPTION
 We will use NIRspec FS high-resolution spectroscopy for 7 objects with robust Spitzer/IRAC 3.6 and 4.5um detections to identify the nature of these sources, whether they are really ==direct collapse black holes (DCBHs)== or a yet ==undiscovered population of heavily obscured black holes at high redshift==. Our primary goal is to detect emission lines in order to obtain the spectroscopic redshift, as well as some other features, e.g., broad-lines and/or outflows. We will use the grating/filter combination of G395M/F290LP with FULL/NRSIRS2RAPID. By using the ==dual slit dither (S200A1 and S200A2)==, we will obtain complete wavelength coverage from ==2.87um to 5.14um in high-resolution R~2700==. We will also use MIRI LRS slit spectroscopy for 3 objects, which are detected in all Spitzer/IRAC and MIPS24um bands, to measure their MIR spectra with significant ==S/N, covering 5-12um wavelength ranges with R~100.==
+
+## GO 2108 Constraining the Seeding and Growth of First Black Holes via Observable Signatures from the Early Universe
+**Principal Investigator:** L. Y. Aaron Yung
+**PI Institution:** NASA Goddard Space Flight Center
+**Allocation:** AR program
+Observing Template: AR program
+### TARGET
+AR program
+### ABSTRACT
+==The physical processes governing the formation of the seeds of supermassive black holes==, as well as ==how they grow in the early universe==, are two fundamental unanswered questions in galaxy formation and cosmology. The unprecedented sensitivity of JWST's instruments hold exciting potential for ==probing the growth of galaxies and black holes (BHs) in the very early Universe==. However, detailed theoretical models are essential for interpreting these observations. With the goal of ==establishing a connection between the "ground-level", small-scale physical processes and the "top-level" observable== signatures, we propose to construct an efficient, physics-based ==modeling pipeline that self-consistently simulates the co-evolution of BHs and galaxies, and produces predictions of their physical and observable properties over a wide redshift and halo mass range==. This will be done by incorporating two essential new components into a well-established galaxy formation framework: 1) a suite of models ==representing different scenarios for BH seed formation and BH accretion==, and 2) ==population synthesis and nebular line emission models== that account for radiation from both stars and accreting BH. ==With this novel modeling pipeline, we will be able== to 1) explore the implications of different BH seeding and accretion models for physical BH and host properties at high redshift, as well as observable quantities such as emission line luminosity functions, colors, and line ratios; 2) identify observables that can optimally constrain seeding and accretion models; and 3) create mock catalogs containing synthetic spectra and photometry, which can guide the design of future JWST observational programs.
+
 ## GO 1764 A Comprehensive JWST View of the Most Distant Quasars Deep into the Epoch of Reionization
 **Principal Investigator:** Xiaohui Fan
 **PI Institution:** University of Arizona
@@ -581,23 +592,11 @@ The primary goal of our proposal is to ==characterize the infrared SEDs and line
 We request ==~900s exposures with both NIRSpec and MIRI to obtain S/N>30 spectra== of the AGN over the full wavelength range of the data based on measured broad band fluxes in K band and at 12 microns. We will use a ==standard four point dither== in all observations. In NIRSpec we will obtain LeakCals using single exposures in galaxies with fainter backgrounds, and using a full dither in the brightest three galaxies. For our MIRI observations, the variable background requires that we take offset sky exposures. These are taken in blank fields typically 5’ from the center of the galaxy selected based on WISE 12 micron imaging.
 
 
-## GO 2108 Constraining the Seeding and Growth of First Black Holes via Observable Signatures from the Early Universe
-**Principal Investigator:** L. Y. Aaron Yung
-**PI Institution:** NASA Goddard Space Flight Center
-**Allocation:** AR program
-Observing Template: AR program
-### TARGET
-AR program
-### ABSTRACT
-==The physical processes governing the formation of the seeds of supermassive black holes==, as well as ==how they grow in the early universe==, are two fundamental unanswered questions in galaxy formation and cosmology. The unprecedented sensitivity of JWST's instruments hold exciting potential for probing the growth of galaxies and black holes (BHs) in the very early Universe. However, detailed theoretical models are essential for interpreting these observations. With the goal of establishing a connection between the "ground-level", small-scale physical processes and the "top-level" observable signatures, we propose to construct an efficient, physics-based modeling pipeline that self-consistently simulates the co-evolution of BHs and galaxies, and produces predictions of their physical and observable properties over a wide redshift and halo mass range. This will be done by incorporating two essential new components into a well-established galaxy formation framework: 1) a suite of models representing different scenarios for BH seed formation and BH accretion, and 2) population synthesis and nebular line emission models that account for radiation from both stars and accreting BH. With this novel modeling pipeline, we will be able to 1) explore the implications of different BH seeding and accretion models for physical BH and host properties at high redshift, as well as observable quantities such as emission line luminosity functions, colors, and line ratios; 2) identify observables that can optimally constrain seeding and accretion models; and 3) create mock catalogs containing synthetic spectra and photometry, which can guide the design of future JWST observational programs.
-
-### OBSERVING DESCRIPTION
-
-## GO 
-**Principal Investigator:** 
+## GO 2228 Probing the M87 Supermassive Black Hole with Parsec-Scale Stellar Dynamics
+**Principal Investigator:** Jonelle Walsh
 **PI Institution:** 
 **Allocation:** 
-Observing Template: 
+Observing Template: NIRSpec/IFU
 ### TARGET
 
 ### ABSTRACT
