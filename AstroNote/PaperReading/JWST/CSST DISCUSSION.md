@@ -554,15 +554,15 @@ The primary goal of our proposal is to ==characterize the infrared SEDs and line
 
 We request ==~900s exposures with both NIRSpec and MIRI to obtain S/N>30 spectra== of the AGN over the full wavelength range of the data based on measured broad band fluxes in K band and at 12 microns. We will use a ==standard four point dither== in all observations. In NIRSpec we will obtain LeakCals using single exposures in galaxies with fainter backgrounds, and using a full dither in the brightest three galaxies. For our MIRI observations, the variable background requires that we take offset sky exposures. These are taken in blank fields typically 5’ from the center of the galaxy selected based on WISE 12 micron imaging.
 
-## GO 
-**Principal Investigator:** 
-**PI Institution:** 
-**Allocation:** 
-Observing Template: 
+## GO 2075 The Ultra Violet Output of Sgr A*
+**Principal Investigator:** Chi-kwan Chan
+**PI Institution:** University of Arizona
+**Allocation:** 12.5 hours
+Observing Template: MIRI/MRS
 ### TARGET
-
+SGR-A
 ### ABSTRACT
-
+Flows in the accretion disks surrounding supermassive black holes are central to virtually all observations of these objects, as well as to the consequences they have on their environments. This topic is complex because ==accretion disks are three-dimensional, turbulent, frequently self- gravitating, and strongly influenced by magnetic fields==. Furthermore, in nearly all cases the system is too distant for detailed study. Sgr A* provides a unique laboratory to study this process through detailed imaging of the effects of the black hole on its environment, given that ==it is orders of magnitude closer than any other example.== We will answer a key question about models of the accretion disk around Sgr A*, namely whether ==purely thermal or hybrid thermal/nonthermal models are appropriate==. This ambiguity arises because plasma instabilities can accelerate electrons and push the electron distribution function into a non-thermal state. Hybrid models predict UV fluxes 3 orders of magnitude higher in that case than pure thermal models. We will make a definitive test of this prediction using a very deep search for the [Ne VI] line, ionization potential 126 eV, at 7.64 microns. This result fills in a key aspect of the theory of the nearest, and best studied, super-massive black hole and its accretion disk.
 ### OBSERVING DESCRIPTION
 
 ## GO 
