@@ -406,23 +406,7 @@ The first visit/observation is NIRCam imaging in two pairs of short+long-wave fi
 
 The second visit/observation is the NIRSpec IFU spectroscopy. We will use the G140M/F100LP setup. No PSF subtraction is required for the IFU observations. No instrument-level target acquisition is required given the compact sizes of our targets and the pointing accuracy. We will use a 4- point dither pattern with a total exposure time of ~2400 sec. For each visit we will include a WAVECAL exposure. The sky background can be considered uniform for our targets and the background level is sufficiently low for our targets, therefore MSA leakage is not important (only mild fractional increase in background level) and we do not require a separate MSA leakcal exposure. We will manually process the dithered exposures for background subtraction if necessary.
 
-# OTHER
-## GO 1554 Nebular Line Diagnostics in a Merger at Cosmic Dawn
-**Principal Investigator:** Roberto Decarli
-**PI Institution:**  INAF-Osservatorio di Astrofisica e Scienza dello Spazio
-**Allocation:** 7.5 hours
-Observing Template: NIRSpec/IFU
-### TARGET
-Group PJ308-21
-### ABSTRACT
-At ==z>6== (when the Universe is <1 Gyr old), ==luminous quasars are exceptionally active: their central engine is a rapidly accreting supermassive== (~1e9 Msun) black hole which resides in an intensely star-forming galaxy that is ab order of magnitude more massive than typical galaxies at these redshifts. How can we account for such a ==rapid growth== of these extreme sources? The exceptional quasar PJ308-21 may offer an answer. ==High-resolution HST and ALMA imaging demonstrates that the quasar host is undergoing a merger with one or more satellite galaxies.== For the first time at these redshifts, ==host galaxy starlight is detected around a luminous quasar.== ==A prominent Ly-alpha halo, detected with MUSE on the ESO/VLT,== partially overlaps the companion galaxy. ==The data in hand already show all the agents of rapid galaxy growth at play: gas, dust, star formation, and nuclear activity==. Here we propose to capitalize on the unprecedented capabilities of JWST to secure NIRSpec IFU observations, creating ==Halpha, Hbeta, [OIII] and [NII] maps== which will enable: 1) a characterization of the ==ionized gas physical properties== (metallicity, ionization parameter, powering mechanism) and a test for the ==presence of outflows;== 2) an estimate of the stellar mass of the ==satellite galaxy==; 3) a ==precise timing of the star formation event==, which we will use to understand the role of the gravitational interaction in triggering the starburst; 4) a test of the ==origin of the Ly-alpha halo==. These observations will lead to a fundamental new understanding of the build-up of massive galaxies and black holes in the early universe.%%选源：z=6的有HST/ALMA/ESO/VLT观测的正在merger satellite galaxies的quasar%%
-### OBSERVING DESCRIPTION
-We propose to secure NIRSpec IFU observations of the ==quasar+galaxy merging system PJ308-21 at z=6.234.== Very recently, ==ALMA has provided first unambiguous evidence of satellite galaxies around quasars==. The targeted system is the poster child of merging galaxies at z>6: High angular resolution (~0.2" or ~1 kpc) observations of the ==rest-frame UV starlight emission (from HST) and of the [CII] and rest-frame FIR dust continuum (from ALMA)== reveal the interplay of gas, dust, star formation, and nuclear activity. We can explain the intricate morphology with a current dynamical model invoking the tidal stripping of one or more satellite galaxies orbiting in close proximity to the quasar host galaxy. In addition, a bright Ly-alpha halo extends on the Eastern side of the quasar host, partially overlapping the satellite galaxy.
-
-The system can be covered in only ==two IFU pointings==. A third pointing off-source will be used for background subtraction. We will target ==key optical diagnostic emission lines: Halpha, Hbeta, [OIII], [NII]==, as well as the stellar optical continuum emission, all in a single spectral setup. The goals of the project include measuring the instantaneous star formation rate, reconstructing the kinematics of the ionized gas, constraining metallicity, ionization parameter, probing the origin of the Ly-alpha halo, measuring its metallicity and ionization parameter, and assessing the stellar mass budget of the system.
-
-
-
+# Sgr A* & M87
 ## GO 2075 The Ultra Violet Output of Sgr A*
 **Principal Investigator:** Chi-kwan Chan
 **PI Institution:** University of Arizona
@@ -435,6 +419,35 @@ Flows in the accretion disks surrounding supermassive black holes are central to
 ### OBSERVING DESCRIPTION
 We will ==characterize the nature of the accretion disk around Sgr A* with mid-infrared IFU observations== using the MIRI/MRS. Our goal is to ==observe the mid-IR emission line of [NeVI] at 7.64 m in a nearby gas cloud==, which is ==excited by the strong UV emission of the thermal or non-thermal electron distribution within the black hole’s accretion disk==. The observed line-strength is directly set by the UV emission profile of the electron distribution function (eDF), therefore, ==we have a unique opportunity with JWST to understand the physics in the accretion disk of our Milky Way’s central black hole.==
 
+
+
+## GO 2228 Probing the M87 Supermassive Black Hole with Parsec-Scale Stellar Dynamics
+**Principal Investigator:** Jonelle Walsh
+**PI Institution:** Texas A & M University
+**Allocation:** 9.9 hours
+Observing Template: NIRSpec/IFU
+### TARGET
+M-87
+### ABSTRACT
+The central black hole (BH) of the giant elliptical galaxy M87 has been studied for more than 40 years. ==Similar to Sgr A* at the Galactic Center==, the remarkable increase in angular resolution over the years, culminating in the Event Horizon Telescope image of the M87 BH shadow, has paved the way for a deeper understanding of the compact object and the immediate surrounding environment. ==The EHT image also provided an independent measurement of the M87 BH mass, which is consistent with the most recent stellar-dynamical result but differs by a factor of ~2 from the gas- dynamical determination==. On the surface, the agreement between the EHT and most recent stellar-dynamical BH mass provides an important validation of the stellar-dynamical technique, but it is pressing to scrutinize the apparent agreement further because both measurements ==relied on extensive modeling and built-in assumptions==. We propose to acquire the best high angular resolution spectra to date at the center of M87 using the NIRSpec integral field unit (IFU). ==We will study parsec-scale stellar dynamics around the M87 BH and extract reliable kinematics deep within the BH gravitational potential==. When combined with existing large-scale IFU stellar kinematics and a new, fully general, triaxial, orbit-based modeling approach, we will obtain the most robust stellar-dynamical BH mass for M87. We will further carry out a comprehensive analysis of the error budget, incorporating possible systematic effects. M87 is a pivotal anchor for the upper end of the BH mass - host galaxy relations, and it is crucial to obtain the best possible BH mass measurement.
+### OBSERVING DESCRIPTION
+We will observe the center of M87 using NIRSpec in IFU mode with the G235H/F170LP grating and filter. The wavelength range will cover the K- band CO bandheads, from which we will measure the stellar kinematics as a function of spatial location. We will obtain dithered NIRSpec exposures using the cycling pattern and small extent, thereby improving the sampling of the NIRSpec point spread function. We select the NRIRS2 readout mode to reduce correlated noise and increase sensitivity for long exposures, while keeping the data volume low to ensure schedulability.
+
+Our work requires high signal-to-noise (S/N) spectra in order to fully characterize the stellar line-of-sight velocity distribution. We will measure not only the velocity and velocity dispersion, but also higher order moments (h_3, h_4, and beyond) that quantify the distribution's asymmetric and symmetric deviations from a Gaussian. Using the JWST ETC, and the surface brightness profile from Kormendy et al. 2009, we estimate that ~6.6 hrs is needed to reach a S/N ~ 100 at 2.3 microns in a circular aperture with a radius of 0.014" located 0.15" from the nucleus. The aperture was selected to mimic a single spaxel, which will be 0.025"x0.025" in size with our dithering strategy. We will construct spatial bins in the outer regions of the NIRSpec IFU to reach a similarly high S/N. We will use 20 groups (each consisting of 5 frames with our readout mode), 1 integration, and 16 (dithered) exposures.
+
+We will obtain a LeakCal exposure composed of 20 groups with the NRIRS2 readout mode at the first science dither postion. This exposure will be used to remove MSA leakage. Since we expect the background to be fairly uniform over the small extent of the dither pattern, we chose not to obtain LeakCal exposures at every dither position. We also will perform a target acquisition to ensure precise centering on the galaxy nucleus.
+
+## GO 2235 Imaging the Shadow of a Black Hole through Sgr A* Monitoring
+**Principal Investigator:** Farhad Yusef-Zadeh
+**PI Institution:** Northwestern University
+**Allocation:** 25.1 hours
+Observing Template: NIRCam/Imaging
+### TARGET
+SGRA
+### ABSTRACT
+We propose to monitor the ==near-IR flare emission of Sgr A*== at two wavelengths using NIRCam imaging. The observations will consist of ==2 12-hour episodes to be carried out simulataneously with observations by ALMA and the Event Horizon Telescope (EHT)==. ==Simultaneous measurements at 2.1 and 4.8 microns provide the spectral evolution of IR flare emission==. This yields information about the ==particle acceleration process and subsequent synchrotron cooling of the highest-energy particles==. Using an adiabatic expansion model, ==the IR light curve== can then be used to determine the spectrum and the variability of submm emission across the multiple flares that are likely during the course of the EHT observations. ==The predicted submm variability is a necessary component in being able to construct an image of the black hole shadow from the EHT observations.== The proposed simultaneous IR and submm observations of the variability of Sgr A* will be key to the EHT's success.
+### OBSERVING DESCRIPTION
+We will use the NIRCam in imaging mode to obtain observations centered on the SMBH Sgr A* at the Galactic Center (GC). ==Simultaneous imaging will be obtained in the short- and long-wavelength channels, using Module B only, and the SUB640 subarray readout==. Subarray readouts are used to reduce data volume and decrease the exposure time per group, because of the bright sources located near Sgr A*. The F210M and F480M filters will be used to obtain photometry of Sgr A* at two different wavelengths simultaneously, thus ==allowing for measurments of the spectral index of Sgr A* as well==. Using the RAPID readout mode, with the SUB640 subarray, ==we will obtain 10 groups per integration and 20 integrations per exposure==, in conjunction with a 4-point dither pattern. Each block of 4 dithered exposures will cover ~1 hour of observing. We will obtain 9 such exposure blocks in a back-to-back fashion, which will provide ~12 hours of coverage on the target. Two such 12 hour visits will be obtained, both of which will be coordinated with times at which other telescopes in the EHT campaign (such as ALMA) are observing Sgr A*.
 # FIRST LIGHT or EoR
 ## GO 1760 First Accreting Black Hole Candidates: Infrared-dropout Heavily Obscured X-ray AGNs
 **Principal Investigator:** Hyewon Suh
@@ -551,6 +564,29 @@ We will observe this object with IFU PRISM/CLEAR for detecting quasar host galax
 We are using no target acquisition (i.e. point-and-shoot) for this observation. At any of the constrained PA range there are Gaia GS that can be selected for guiding and that will ensure the proper location of the target within the IFU aperture, with the required accuracy.
 
 We are using NRSIRS2RAPID for a better identification and rejection of cosmic rays.
+
+## GO 2249 Monster in the Early Universe: Unveiling the Nature of a Dust Reddened Quasar Hosting a Ten-Billion Solar Mass Black Hole at z=7.1
+**Principal Investigator:** Jinyi Yang
+**PI Institution:** University of Arizona
+**Allocation:** 6.0 hours
+Observing Template: NIRSpec/IFU  
+MIRI/Imaging
+### TARGET
+J0038-0653
+### ABSTRACT
+The discovery of ==z>7 quasars hosting billion solar mass supermassive black holes (SMBHs) places the strongest constraints on the formation of the earliest SMBHs in the universe.== These quasars are also signposts of the assembly of the early massive galaxies during the epoch of reionization. Is there an upper limit on BH masses and the rate of their growth in the early universe? ==Recently, a luminous quasar at z=7.1 has been discovered to host a SMBH with at least 10 billion solar masses.==%%选源：z=7.1的有10 billion 太阳质量的quasar%% It also shows evidence of strong dust reddening based on ground-based spectroscopy. ==Its rest-frame UV continuum shape is highly unusual, suggestive of extinction due to supernova produced dust.== However, the total extinction is completely unconstrained with ground-based data, ==therefore the SMBH mass is only a lower limit==. We propose to carry out JWST observations to obtain ==its rest-frame optical spectrum and broad-band SED in the near-infrared==. The first goal is to ==accurately measure its BH mass based on its H-beta line and bolometric luminosity fully corrected for extinction==, in order to confirm the first detection of a BH with mass exceeding 10 billion solar masses in the early universe. ==The same data will be used to characterize the nature of dust extinction and test whether supernova dust can explain its continuum shape==. The modest JWST program proposed here will unveil the nature of this remarkable quasar at the epoch of reionization, and provide new insight in the growth of the most massive BHs in the early universe and their connections to galaxy formation.
+### OBSERVING DESCRIPTION
+We will use NIRSpec IFU Prism and G395H/F290LP and MIRI imaging modes to observe a new z=7.06 reddened quasar. Given our science goals, estimated using the JWST ECT, the total science time is 2.2 hours, and the total charged time is 5.5 hours.
+
+1. NIRSpec IFU, 1.9 hours sicence, 3.1 hours total  
+We choose IFU instead of Fixed Slit mode becuase there is not slit-loss and the overhead time is shorter. Slit-loss will significantly affect the accuracy of extinction curve measurement and also quasar continuum fitting. NRSIRS2RAPID readout mode CYCLING dither are used.
+
+- IFU Prism: this mode is chosen to take spectrscopy in the full wavelength for the study of dust extcintion. With only 0.5 hour on-source integration, we can detect the quasar continuum from 1 micron to 5 micron at S/N>~20 per pixel, which will allow a precise measurement of the dust extinction curve.
+
+- G395H/F290LP: we request 4,726s on-source time to detect the continuum around H-beta and [OIII] lines at S/N >~ 20 per pixel. This S/N is required to measure the continuum and broad line width to 5-10% precision, corresponding to ~20% accuracy in black hole mass measurement.
+
+2. MIRI imaging, 0.3 hours sicence, 2.4 hours total  
+All filters will be used with total on-source time of 0.3 hours to have a full wavelength coverage of high quality SED from 5 to 25 micron (rest-frame 0.6 - 3 micron). Four-point dither and FAST readout mode will be used.
 # INTERMEDIATE MASS BH
 ## GO 1983 Uncovering Intermediate Mass Black Holes with JWST: Pushing the Frontier
 **Principal Investigator:** Shobita Satyapal
@@ -569,7 +605,21 @@ Given carefully determined S/N requirements on the various emission lines, we ==
 
 Since we are using NIRSpec, LeakCals will be necessary, but because our primary goal is to ==obtain the emission line fluxes==, we follow the recommended LeakCal strategy and will obtain a single LeakCal at only one position with the same exposure time as our observation. Based on the expected pointing accuracy of JWST and the fact that our targets have SDSS coordinates, we will not be requiring any target acquisition; our targets are compact and will fit completely in the NIRSpec 3"x3" FOV. We will also be able to perform background subtraction within the FOV, increasing the efficiency of our program.
 
-# LOW LUMINOSITY AGN
+# OTHER
+## GO 1554 Nebular Line Diagnostics in a Merger at Cosmic Dawn
+**Principal Investigator:** Roberto Decarli
+**PI Institution:**  INAF-Osservatorio di Astrofisica e Scienza dello Spazio
+**Allocation:** 7.5 hours
+Observing Template: NIRSpec/IFU
+### TARGET
+Group PJ308-21
+### ABSTRACT
+At ==z>6== (when the Universe is <1 Gyr old), ==luminous quasars are exceptionally active: their central engine is a rapidly accreting supermassive== (~1e9 Msun) black hole which resides in an intensely star-forming galaxy that is ab order of magnitude more massive than typical galaxies at these redshifts. How can we account for such a ==rapid growth== of these extreme sources? The exceptional quasar PJ308-21 may offer an answer. ==High-resolution HST and ALMA imaging demonstrates that the quasar host is undergoing a merger with one or more satellite galaxies.== For the first time at these redshifts, ==host galaxy starlight is detected around a luminous quasar.== ==A prominent Ly-alpha halo, detected with MUSE on the ESO/VLT,== partially overlaps the companion galaxy. ==The data in hand already show all the agents of rapid galaxy growth at play: gas, dust, star formation, and nuclear activity==. Here we propose to capitalize on the unprecedented capabilities of JWST to secure NIRSpec IFU observations, creating ==Halpha, Hbeta, [OIII] and [NII] maps== which will enable: 1) a characterization of the ==ionized gas physical properties== (metallicity, ionization parameter, powering mechanism) and a test for the ==presence of outflows;== 2) an estimate of the stellar mass of the ==satellite galaxy==; 3) a ==precise timing of the star formation event==, which we will use to understand the role of the gravitational interaction in triggering the starburst; 4) a test of the ==origin of the Ly-alpha halo==. These observations will lead to a fundamental new understanding of the build-up of massive galaxies and black holes in the early universe.%%选源：z=6的有HST/ALMA/ESO/VLT观测的正在merger satellite galaxies的quasar%%
+### OBSERVING DESCRIPTION
+We propose to secure NIRSpec IFU observations of the ==quasar+galaxy merging system PJ308-21 at z=6.234.== Very recently, ==ALMA has provided first unambiguous evidence of satellite galaxies around quasars==. The targeted system is the poster child of merging galaxies at z>6: High angular resolution (~0.2" or ~1 kpc) observations of the ==rest-frame UV starlight emission (from HST) and of the [CII] and rest-frame FIR dust continuum (from ALMA)== reveal the interplay of gas, dust, star formation, and nuclear activity. We can explain the intricate morphology with a current dynamical model invoking the tidal stripping of one or more satellite galaxies orbiting in close proximity to the quasar host galaxy. In addition, a bright Ly-alpha halo extends on the Eastern side of the quasar host, partially overlapping the satellite galaxy.
+
+The system can be covered in only ==two IFU pointings==. A third pointing off-source will be used for background subtraction. We will target ==key optical diagnostic emission lines: Halpha, Hbeta, [OIII], [NII]==, as well as the stellar optical continuum emission, all in a single spectral setup. The goals of the project include measuring the instantaneous star formation rate, reconstructing the kinematics of the ionized gas, constraining metallicity, ionization parameter, probing the origin of the Ly-alpha halo, measuring its metallicity and ionization parameter, and assessing the stellar mass budget of the system.
+
 ## GO 2016 Revealing Low Luminosity Active Galactic Nuclei (ReveaLLAGN)
 **Principal Investigator:** Anil Seth
 **PI Institution:** University of Utah
@@ -592,44 +642,75 @@ The primary goal of our proposal is to ==characterize the infrared SEDs and line
 We request ==~900s exposures with both NIRSpec and MIRI to obtain S/N>30 spectra== of the AGN over the full wavelength range of the data based on measured broad band fluxes in K band and at 12 microns. We will use a ==standard four point dither== in all observations. In NIRSpec we will obtain LeakCals using single exposures in galaxies with fainter backgrounds, and using a full dither in the brightest three galaxies. For our MIRI observations, the variable background requires that we take offset sky exposures. These are taken in blank fields typically 5’ from the center of the galaxy selected based on WISE 12 micron imaging.
 
 
-## GO 2228 Probing the M87 Supermassive Black Hole with Parsec-Scale Stellar Dynamics
-**Principal Investigator:** Jonelle Walsh
-**PI Institution:** Texas A & M University
-**Allocation:** 9.9 hours
-Observing Template: NIRSpec/IFU
+## GO 2654 Kpc-scale Dual Supermassive Black Holes and Their Impact on Galaxy Formation at Cosmic Noon
+**Principal Investigator:** Yuzo Ishikawa
+**PI Institution:** The Johns Hopkins University
+**Allocation:** 16.3 hours
+Observing Template: NIRSpec/IFU  
+MIRI/MRS
 ### TARGET
-M-87
+SDSSJ0841
+SDSSJ0749
 ### ABSTRACT
-The central black hole (BH) of the giant elliptical galaxy M87 has been studied for more than 40 years. ==Similar to Sgr A* at the Galactic Center==, the remarkable increase in angular resolution over the years, culminating in the Event Horizon Telescope image of the M87 BH shadow, has paved the way for a deeper understanding of the compact object and the immediate surrounding environment. ==The EHT image also provided an independent measurement of the M87 BH mass, which is consistent with the most recent stellar-dynamical result but differs by a factor of ~2 from the gas- dynamical determination==. On the surface, the agreement between the EHT and most recent stellar-dynamical BH mass provides an important validation of the stellar-dynamical technique, but it is pressing to scrutinize the apparent agreement further because both measurements relied on extensive modeling and built-in assumptions. We propose to acquire the best high angular resolution spectra to date at the center of M87 using the NIRSpec integral field unit (IFU). We will study parsec-scale stellar dynamics around the M87 BH and extract reliable kinematics deep within the BH gravitational potential. When combined with existing large-scale IFU stellar kinematics and a new, fully general, triaxial, orbit-based modeling approach, we will obtain the most robust stellar-dynamical BH mass for M87. We will further carry out a comprehensive analysis of the error budget, incorporating possible systematic effects. M87 is a pivotal anchor for the upper end of the BH mass - host galaxy relations, and it is crucial to obtain the best possible BH mass measurement.
+The search for ==dual supermassive black holes== is of immense interest in modern astrophysics. Following a merger of two galaxies, ==the two central supermassive black holes evolve into a bound binary and further inspiral until they eventually coalesce into a single merger product==. If black holes are actively accreting during the inspiral, ==such objects can be observed as a dual or binary quasar.== Gaia observations have enabled a novel technique to search for such dual quasars at previously unreachable sub-kpc scales, based on the small motions of the light centroid as the two sources vary stochastically. ==We propose to study two kpc-scale dual quasars identified with this method and confirmed with follow-up observations at z=2-3==%%%选源：2个dual quasar用Gaia发现并经过后续认证，位于z=2-3，peak epoch%%, the peak epoch of galaxy formation. Dual quasars at this epoch are not well characterized, especially due limited wavelength coverage of key spectral features and stringent spatial resolution requirements. ==The unprecedented NIR sensitivity, spatial resolution, and spectral coverage of JWST will enable us to study the gas dynamics in dual quasars for the first time at these redshifts.== We propose to use the IFU capabilities of NIRSpec and MIRI to study the impact of these dual quasars on their hosts and to probe the quasar fueling mechanisms, host galaxy merger signatures, host stellar continuum, and merger induced star formation.
 ### OBSERVING DESCRIPTION
-## GO 
-**Principal Investigator:** 
-**PI Institution:** 
-**Allocation:** 
-Observing Template: 
+SDSSJ0841-- acquisition: NIRSpec (VERIFY ONLY) and MIRI (point-and-shoot) - NIRSpec IFU:
+
+-- with G140M/F100LP:  
+9-point "small cycling" dither pattern  
+25 groups and 1 integration per dither position Readout mode: NRSIRS2RAPID  
+1 leakage exposure at one dither position
+
+-- G235M/F170LP:  
+9-point "small cycling" dither pattern  
+25 groups and 1 integration per dither position Readout mode: NRSIRS2RAPID  
+1 leakage exposure at one dither position
+
+- MIRI IFU with the SHORT wavelength setting: 4-point dither pattern  
+30 groups and 3 integrations per dither position Readout mode: SLOW
+
+1 background image slightly offset from target position for every spectral setting: 30 groups and 3 integrations --> total exposure: 4.418 hours science +0.6 hours background (8.32 hours charged)
+
+SDSSJ0749 -- acquisition: NIRSpec (VERIFY ONLY) and MIRI (point-and-shoot) - NIRSpec IFU:
+
+-- with G140M/F100LP:  
+9-point "small cycling" dither pattern  
+25 groups and 1 integration per dither position Readout mode: NRSIRS2RAPID  
+1 leakage exposure at one dither position
+
+-- G235M/F170LP:  
+9-point "small cycling" dither pattern  
+25 groups and 1 integration per dither position Readout mode: NRSIRS2RAPID  
+1 leakage exposure at one dither position
+
+- MIRI IFU with the LONG wavelength setting:  
+4-point dither pattern  
+30 groups and 3 integrations per dither position  
+Readout mode: SLOW  
+1 background image slightly offset from target position for every spectral setting: 30 groups and 3 integrations
+
+--> total exposure: 4.418 hours science +0.6 hours background (8.29 hours charged)
+
+Total request: 10.03 hours science (16.61 hours charged)
+
+## GO 2701 Unveiling the Nature of CID-42. The Best Candidate for a Gravitational Wave Recoiling Supermassive Black Hole
+**Principal Investigator:** Francisco Mueller-Sanchez
+**PI Institution:** University of Memphis
+**Allocation:** 6.6 hours
+Observing Template:NIRSpec/IFU
 ### TARGET
-
+2XMM-J100043.1+020637
 ### ABSTRACT
-
+COSMOS J100043.1+020637.2 (or CID-42) is a galaxy with ==exceptional properties==: ==**two optical nuclei separated by ~0.5", a long tidal tail, X-ray emission from only one optical source, and a broad H emission-line centered at 1300 km/s from the systemic velocity.**== These properties make CID-42 the best candidate ==gravitational wave (GW) recoiling supermassive black hole (SMBH) to date==, but other scenarios, such as an inspiraling active galactic nucleus (AGN) pair, accretion disk kinematics, or a gravitational slingshot recoil resulting from a triple-SMBH encounter cannot be excluded. With spatially resolved JWST NIRSpec integral-field unit (IFU) spectroscopy, it is now possible to definitively ==determine whether this galaxy hosts a GW recoiling SMBH by mapping the 2D kinematics of the stars and the broad and narrow emission lines of ionized gas==. We will be able to determine in a straightforward way ==three main kinematic properties of GW recoiling SMBHs==: (i) the ==kinematically-offset broad emission lines== should be spatially coincident with the spatially-offset AGN, (ii) the ==kinematic center of the galaxy== should be spatially coincident with the central stellar cusp left behind by the recoiling SMBH, and (iii) ==the velocities of the narrow emission lines should be close to the systemic velocity of the galaxy== at all spatial positions in the field-of-view and not close to the kick velocity of the merged SMBH. The proposed observations will have a tremendous impact on our knowledge of SMBH mergers and the associated emission of GWs. In fact, with ==a small investment of ~5 hours, this experiment could confirm the existence of GWs from SMBH mergers.==
 ### OBSERVING DESCRIPTION
-## GO 
-**Principal Investigator:** 
-**PI Institution:** 
-**Allocation:** 
-Observing Template: 
-### TARGET
+This proposal focuses on the ==most compelling recoiling supermassive black hole (SMBH) candidate in the Universe: COSMOS J100043.15+020637.20,== also known as CID-42. The two main properties of a gravitational wave (GW) recoiling SMBH have been observed in this galaxy: ==it exhibits an active galactic nucleus (AGN) that is spatially offset from the galaxy center, and it has velocity shifts >1000 km/s between broad and narrow lines.== Over the last 7 years, our group has observed this object with the most powerful current-generation telescopes, including the HST and the Keck telescopes, and we have found that they are inadequate for pinning down the nature of this galaxy. With spatially-resolved JWST NIRSpec integral-field unit (IFU) spectroscopy, it is now possible to definitively determine whether this galaxy hosts a GW recoiling SMBH.
 
-### ABSTRACT
+We will observe the ==Pa$\alpha$ 1.87 $\mu$m emission line== to trace the spatial distribution and kinematics of the broad-line and narrow-line emission regions in CID-42. Since H$\alpha$ lies in the optical (even at the redshift of CID-42), ==Pa$\alpha$ is our best option (this line is the strongest recombination line of hydrogen in the near-IR, and therefore a good tracer of the ionized gas in galaxies).== We will also study the ==kinematics of the [Si VI] 1.96 $\mu$m and [He I] 2.05 $\mu$m emission lines== to constrain the properties of outflows of ionized gas. Finally, we will trace the rotational component of the galaxy and the kinematics of the tidal tails (which possibly shows signatures of inflows) by mapping the 2D kinematics of the molecular hydrogen (H$_2$) emission line at 2.12 $\mu$m. Given the redshift of our target, we will use the grating-filter combination G235H/F170LP. We will cover the nuclear region most efficiently with the 0.1" plate scale. The 3"x3" field-of-view available with this configuration will be oriented along a position angle of 0 degrees.
 
-### OBSERVING DESCRIPTION
+Since the $H-$band magnitude of this COSMOS galaxy is well known ($H\sim18.8$ in an aperture of 1 arcsec), integration times are based on a surface brightness of 18.8 mag arcsec−2 in H−band. The ETC indicates that a total exposure time of 17286 s (4.8 hours) with a 2-Point dither strategy and assuming a galxy spectrum similar to NGC 6240 is sufficient to reach a S/N of ∼5 at 2.1μm, and 15−25 at larger wavelengths - as required, given the typical depths of stellar absorption features, to measure stellar kinematics (Davies et al. 2007).
 
-## GO 
-**Principal Investigator:** 
-**PI Institution:** 
-**Allocation:** 
-Observing Template: 
-### TARGET
 
-### ABSTRACT
 
-### OBSERVING DESCRIPTION
+
+
+
