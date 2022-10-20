@@ -366,21 +366,6 @@ AR program
 AGN have become key components of most galaxy evolution models, yet several open issues remain in our understanding of ==how the link between galaxies and their SMBHs is established and maintained==. We propose to survey the host demographics of AGN during the ==first quarter of cosmic tim==e in order to understand ==when and how the AGN-galaxy connection is established.== Our study will use data from the ==CEERS ERS program==, whose NIRCam, MIRI and NIRSpec observations will enable a wide range of AGN-related science. We will use ==a combination of X-ray data and CEERS MIRI and NIRSpec data to create a multiwavelength sample of AGN== and use it to conduct the following science: (1) ==NIRCam imaging will provide rest-frame optical morphologies of AGN hosts at z=2-6.== We will trace the emergence of bulge and disk structures and their connection to SMBH growth during the era of galaxy assembly and determine the role that ==galaxy mergers play in fueling AGN activity== during this epoch. (2) We will use ==MIRI color diagnostics== to perform a census of obscured SMBHs out to z=2, revealing the properties of this previously ==hidden population and determining how the fraction of obscured AGN evolves with redshift.== (3) We will use NIRSpec data to conduct a survey of ==AGN-driven outflows== at z>3 and measure the impact they have on their host galaxies. (4) We will search for the ==seeds== of today's SMBHs at Cosmic Dawn by using NIRSpec to find high ionization lines from growing SMBHs at z>7. As part of our science analysis, we will ==release value-added catalogs of morphologies, emission line fluxes, and AGN identifications to supplement the CEERS dataset and directly enable future community use of JWST.==
 ### OBSERVING DESCRIPTION
 
-# OTHER
-## GO 1554 Nebular Line Diagnostics in a Merger at Cosmic Dawn
-**Principal Investigator:** Roberto Decarli
-**PI Institution:**  INAF-Osservatorio di Astrofisica e Scienza dello Spazio
-**Allocation:** 7.5 hours
-Observing Template: NIRSpec/IFU
-### TARGET
-Group PJ308-21
-### ABSTRACT
-At ==z>6== (when the Universe is <1 Gyr old), ==luminous quasars are exceptionally active: their central engine is a rapidly accreting supermassive== (~1e9 Msun) black hole which resides in an intensely star-forming galaxy that is ab order of magnitude more massive than typical galaxies at these redshifts. How can we account for such a ==rapid growth== of these extreme sources? The exceptional quasar PJ308-21 may offer an answer. ==High-resolution HST and ALMA imaging demonstrates that the quasar host is undergoing a merger with one or more satellite galaxies.== For the first time at these redshifts, ==host galaxy starlight is detected around a luminous quasar.== ==A prominent Ly-alpha halo, detected with MUSE on the ESO/VLT,== partially overlaps the companion galaxy. ==The data in hand already show all the agents of rapid galaxy growth at play: gas, dust, star formation, and nuclear activity==. Here we propose to capitalize on the unprecedented capabilities of JWST to secure NIRSpec IFU observations, creating ==Halpha, Hbeta, [OIII] and [NII] maps== which will enable: 1) a characterization of the ==ionized gas physical properties== (metallicity, ionization parameter, powering mechanism) and a test for the ==presence of outflows;== 2) an estimate of the stellar mass of the ==satellite galaxy==; 3) a ==precise timing of the star formation event==, which we will use to understand the role of the gravitational interaction in triggering the starburst; 4) a test of the ==origin of the Ly-alpha halo==. These observations will lead to a fundamental new understanding of the build-up of massive galaxies and black holes in the early universe.%%选源：z=6的有HST/ALMA/ESO/VLT观测的正在merger satellite galaxies的quasar%%
-### OBSERVING DESCRIPTION
-We propose to secure NIRSpec IFU observations of the ==quasar+galaxy merging system PJ308-21 at z=6.234.== Very recently, ==ALMA has provided first unambiguous evidence of satellite galaxies around quasars==. The targeted system is the poster child of merging galaxies at z>6: High angular resolution (~0.2" or ~1 kpc) observations of the ==rest-frame UV starlight emission (from HST) and of the [CII] and rest-frame FIR dust continuum (from ALMA)== reveal the interplay of gas, dust, star formation, and nuclear activity. We can explain the intricate morphology with a current dynamical model invoking the tidal stripping of one or more satellite galaxies orbiting in close proximity to the quasar host galaxy. In addition, a bright Ly-alpha halo extends on the Eastern side of the quasar host, partially overlapping the satellite galaxy.
-
-The system can be covered in only ==two IFU pointings==. A third pointing off-source will be used for background subtraction. We will target ==key optical diagnostic emission lines: Halpha, Hbeta, [OIII], [NII]==, as well as the stellar optical continuum emission, all in a single spectral setup. The goals of the project include measuring the instantaneous star formation rate, reconstructing the kinematics of the ionized gas, constraining metallicity, ionization parameter, probing the origin of the Ly-alpha halo, measuring its metallicity and ionization parameter, and assessing the stellar mass budget of the system.
-
 ## GO 2057 A JWST Study of the Link Between Supermassive Black Holes and Galaxies at Cosmic Noon
 **Principal Investigator:** Yue Shen
 **PI Institution:** University of Illinois at Urbana - Champaign
@@ -408,6 +393,35 @@ Each target will have two observations, and each observation can be fit in a sin
 The first visit/observation is NIRCam imaging in two pairs of short+long-wave filters (F090W+F277W, F150W+F444W). We will use the SUB640 subarray and offset the target to avoid the central detector gaps. For each filter combination, we will adopt a 4-point STANDARD subpixel dither pattern and a total exposure time of ~480 or ~320 sec. This dither pattern is sufficient to reach Nyquist sampling of the PSF for all filters but F090W, whose PSF is still slightly undersampled. This compromise is acceptable since the F090W filter samples the rest-frame UV and is not primarily used for morphological measurements and stellar mass estimation. Increasing the number of dither points will lead to substantial extra overhead with minimal improvements for our primary science goals. We will use field stars in all NIRCam pointings for the ten targets to construct a composite PSF reference for our quasar/host decomposition.
 
 The second visit/observation is the NIRSpec IFU spectroscopy. We will use the G140M/F100LP setup. No PSF subtraction is required for the IFU observations. No instrument-level target acquisition is required given the compact sizes of our targets and the pointing accuracy. We will use a 4- point dither pattern with a total exposure time of ~2400 sec. For each visit we will include a WAVECAL exposure. The sky background can be considered uniform for our targets and the background level is sufficiently low for our targets, therefore MSA leakage is not important (only mild fractional increase in background level) and we do not require a separate MSA leakcal exposure. We will manually process the dithered exposures for background subtraction if necessary.
+
+# OTHER
+## GO 1554 Nebular Line Diagnostics in a Merger at Cosmic Dawn
+**Principal Investigator:** Roberto Decarli
+**PI Institution:**  INAF-Osservatorio di Astrofisica e Scienza dello Spazio
+**Allocation:** 7.5 hours
+Observing Template: NIRSpec/IFU
+### TARGET
+Group PJ308-21
+### ABSTRACT
+At ==z>6== (when the Universe is <1 Gyr old), ==luminous quasars are exceptionally active: their central engine is a rapidly accreting supermassive== (~1e9 Msun) black hole which resides in an intensely star-forming galaxy that is ab order of magnitude more massive than typical galaxies at these redshifts. How can we account for such a ==rapid growth== of these extreme sources? The exceptional quasar PJ308-21 may offer an answer. ==High-resolution HST and ALMA imaging demonstrates that the quasar host is undergoing a merger with one or more satellite galaxies.== For the first time at these redshifts, ==host galaxy starlight is detected around a luminous quasar.== ==A prominent Ly-alpha halo, detected with MUSE on the ESO/VLT,== partially overlaps the companion galaxy. ==The data in hand already show all the agents of rapid galaxy growth at play: gas, dust, star formation, and nuclear activity==. Here we propose to capitalize on the unprecedented capabilities of JWST to secure NIRSpec IFU observations, creating ==Halpha, Hbeta, [OIII] and [NII] maps== which will enable: 1) a characterization of the ==ionized gas physical properties== (metallicity, ionization parameter, powering mechanism) and a test for the ==presence of outflows;== 2) an estimate of the stellar mass of the ==satellite galaxy==; 3) a ==precise timing of the star formation event==, which we will use to understand the role of the gravitational interaction in triggering the starburst; 4) a test of the ==origin of the Ly-alpha halo==. These observations will lead to a fundamental new understanding of the build-up of massive galaxies and black holes in the early universe.%%选源：z=6的有HST/ALMA/ESO/VLT观测的正在merger satellite galaxies的quasar%%
+### OBSERVING DESCRIPTION
+We propose to secure NIRSpec IFU observations of the ==quasar+galaxy merging system PJ308-21 at z=6.234.== Very recently, ==ALMA has provided first unambiguous evidence of satellite galaxies around quasars==. The targeted system is the poster child of merging galaxies at z>6: High angular resolution (~0.2" or ~1 kpc) observations of the ==rest-frame UV starlight emission (from HST) and of the [CII] and rest-frame FIR dust continuum (from ALMA)== reveal the interplay of gas, dust, star formation, and nuclear activity. We can explain the intricate morphology with a current dynamical model invoking the tidal stripping of one or more satellite galaxies orbiting in close proximity to the quasar host galaxy. In addition, a bright Ly-alpha halo extends on the Eastern side of the quasar host, partially overlapping the satellite galaxy.
+
+The system can be covered in only ==two IFU pointings==. A third pointing off-source will be used for background subtraction. We will target ==key optical diagnostic emission lines: Halpha, Hbeta, [OIII], [NII]==, as well as the stellar optical continuum emission, all in a single spectral setup. The goals of the project include measuring the instantaneous star formation rate, reconstructing the kinematics of the ionized gas, constraining metallicity, ionization parameter, probing the origin of the Ly-alpha halo, measuring its metallicity and ionization parameter, and assessing the stellar mass budget of the system.
+
+
+
+## GO 2075 The Ultra Violet Output of Sgr A*
+**Principal Investigator:** Chi-kwan Chan
+**PI Institution:** University of Arizona
+**Allocation:** 12.5 hours
+Observing Template: MIRI/MRS
+### TARGET
+SGR-A
+### ABSTRACT
+Flows in the accretion disks surrounding supermassive black holes are central to virtually all observations of these objects, as well as to the consequences they have on their environments. This topic is complex because ==accretion disks are three-dimensional, turbulent, frequently self- gravitating, and strongly influenced by magnetic fields==. Furthermore, in nearly all cases the system is too distant for detailed study. Sgr A* provides a unique laboratory to study this process through detailed imaging of the effects of the black hole on its environment, given that ==it is orders of magnitude closer than any other example.== We will answer a key question about models of the accretion disk around Sgr A*, namely whether ==purely thermal or hybrid thermal/nonthermal models are appropriate==. This ambiguity arises because ==plasma instabilities can accelerate electrons and push the electron distribution function into a non-thermal state==. Hybrid models predict UV fluxes 3 orders of magnitude higher in that case than pure thermal models. We will make a definitive test of this prediction using a ==very deep search for the [Ne VI] line, ionization potential 126 eV, at 7.64 microns==. This result fills in a key aspect of the theory of the nearest, and best studied, super-massive black hole and its accretion disk.
+### OBSERVING DESCRIPTION
+We will ==characterize the nature of the accretion disk around Sgr A* with mid-infrared IFU observations== using the MIRI/MRS. Our goal is to ==observe the mid-IR emission line of [NeVI] at 7.64 m in a nearby gas cloud==, which is ==excited by the strong UV emission of the thermal or non-thermal electron distribution within the black hole’s accretion disk==. The observed line-strength is directly set by the UV emission profile of the electron distribution function (eDF), therefore, ==we have a unique opportunity with JWST to understand the physics in the accretion disk of our Milky Way’s central black hole.==
 
 # FIRST LIGHT or EoR
 ## GO 1760 First Accreting Black Hole Candidates: Infrared-dropout Heavily Obscured X-ray AGNs
@@ -554,22 +568,12 @@ The primary goal of our proposal is to ==characterize the infrared SEDs and line
 
 We request ==~900s exposures with both NIRSpec and MIRI to obtain S/N>30 spectra== of the AGN over the full wavelength range of the data based on measured broad band fluxes in K band and at 12 microns. We will use a ==standard four point dither== in all observations. In NIRSpec we will obtain LeakCals using single exposures in galaxies with fainter backgrounds, and using a full dither in the brightest three galaxies. For our MIRI observations, the variable background requires that we take offset sky exposures. These are taken in blank fields typically 5’ from the center of the galaxy selected based on WISE 12 micron imaging.
 
-## GO 2075 The Ultra Violet Output of Sgr A*
-**Principal Investigator:** Chi-kwan Chan
-**PI Institution:** University of Arizona
-**Allocation:** 12.5 hours
-Observing Template: MIRI/MRS
-### TARGET
-SGR-A
-### ABSTRACT
-Flows in the accretion disks surrounding supermassive black holes are central to virtually all observations of these objects, as well as to the consequences they have on their environments. This topic is complex because ==accretion disks are three-dimensional, turbulent, frequently self- gravitating, and strongly influenced by magnetic fields==. Furthermore, in nearly all cases the system is too distant for detailed study. Sgr A* provides a unique laboratory to study this process through detailed imaging of the effects of the black hole on its environment, given that ==it is orders of magnitude closer than any other example.== We will answer a key question about models of the accretion disk around Sgr A*, namely whether ==purely thermal or hybrid thermal/nonthermal models are appropriate==. This ambiguity arises because plasma instabilities can accelerate electrons and push the electron distribution function into a non-thermal state. Hybrid models predict UV fluxes 3 orders of magnitude higher in that case than pure thermal models. We will make a definitive test of this prediction using a very deep search for the [Ne VI] line, ionization potential 126 eV, at 7.64 microns. This result fills in a key aspect of the theory of the nearest, and best studied, super-massive black hole and its accretion disk.
-### OBSERVING DESCRIPTION
 
-## GO 
-**Principal Investigator:** 
-**PI Institution:** 
-**Allocation:** 
-Observing Template: 
+## GO 2080 Exploration of the Nuclear Jet Impact on the Interstellar Medium in Seyfert Galaxy NGC 4258
+**Principal Investigator:**  Jason Glenn
+**PI Institution:** NASA Goddard Space Flight Center
+**Allocation:** 24.7 hours
+Observing Template: NIRCam/Imaging
 ### TARGET
 
 ### ABSTRACT
