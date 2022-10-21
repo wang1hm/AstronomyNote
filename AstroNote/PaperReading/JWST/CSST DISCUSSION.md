@@ -261,9 +261,6 @@ NGC-4388
 NGC-5135
 NGC-5728
 NGC-7172
-NGC-5135
-NGC-5728
-NGC-7172
 ### ABSTRACT
 Understanding the ouflows driven by Active Galactic Nuclei (AGN) is of key importance for the modern view of galaxy evolution. A recent paradigm shift in our picture of ==dust in the vicinity of AGN== offers promise for outflow science. We now know that a major part of an AGN's mid- infrared ==(MIR) dust emission== comes from a ==polar structure that arises in a radiatively-accelerated dusty wind==. Ground-based work has shown that similar polar emission is also found hundreds of pc away from the nucleus. ==If we can confirm that this extended polar emission is fundamentally connected to the pc-scale dusty wind, it will be our best evidence yet for a coherent dynamical connection between nuclear and galaxy-scale outflows.==
 
