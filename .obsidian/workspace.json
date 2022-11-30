@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "AstroNote/Something interesting/20221130-arxiv party.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f359357280d76c9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,13 +78,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5d236897a936ac12",
@@ -141,10 +152,12 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "5d99fe8c255e8d1d",
+  "active": "f359357280d76c9b",
   "lastOpenFiles": [
-    "().md",
+    "AstroNote/Something interesting/20221130-arxiv party.md",
+    "AstroNote/Something interesting/20220418-Group meeting.md",
     "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
+    "().md",
     "AstroNote/PaperReading/Changing-look AGN/Systemetic search.md",
     "PaperReading/Try the github.md"
   ]
