@@ -20,17 +20,18 @@
             }
           },
           {
-            "id": "668d98f19376a445",
+            "id": "b9cf88527a142b7a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.1.9"
+                "file": "AstroNote/Something interesting/20230104-arxiv party.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,8 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "668d98f19376a445",
+  "active": "9f1b19557b042a28",
   "lastOpenFiles": [
+    "AstroNote/Something interesting/20230104-arxiv party.md",
+    "AstroNote/Something interesting/20221228-arxiv party.md",
     "AstroNote/Something interesting/20221130-arxiv party.md",
     "AstroNote/Something interesting/20221107-arxiv party.md",
     "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
