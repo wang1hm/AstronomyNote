@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "6b51891fa6807397",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AstroNote/PaperReading/Changing-look AGN/Calibration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "b9cf88527a142b7a",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5d236897a936ac12",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AstroNote/Something interesting/20221228-arxiv party.md",
+                "file": "AstroNote/PaperReading/Changing-look AGN/Calibration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AstroNote/Something interesting/20221228-arxiv party.md",
+                "file": "AstroNote/PaperReading/Changing-look AGN/Calibration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AstroNote/Something interesting/20221228-arxiv party.md"
+                "file": "AstroNote/PaperReading/Changing-look AGN/Calibration.md"
               }
             }
           }
@@ -159,16 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9f1b19557b042a28",
+  "active": "6b51891fa6807397",
   "lastOpenFiles": [
-    "AstroNote/Something interesting/20230104-arxiv party.md",
+    "AstroNote/PaperReading/Changing-look AGN/Systemetic search.md",
+    "AstroNote/PaperReading/Changing-look AGN/Calibration.md",
     "AstroNote/Something interesting/20221228-arxiv party.md",
+    "AstroNote/Something interesting/20230104-arxiv party.md",
     "AstroNote/Something interesting/20221130-arxiv party.md",
     "AstroNote/Something interesting/20221107-arxiv party.md",
     "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
     "AstroNote/Something interesting/20220418-Group meeting.md",
     "().md",
-    "AstroNote/PaperReading/Changing-look AGN/Systemetic search.md",
     "PaperReading/Try the github.md"
   ]
 }
