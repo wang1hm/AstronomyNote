@@ -4,40 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "582e8ae89c78c542",
+        "id": "0b5877d60b5af698",
         "type": "tabs",
         "children": [
           {
-            "id": "bc039417e696ec95",
+            "id": "5a3ed94f968b550b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AstroNote/Something interesting/20230111-arxiv party.md",
+                "file": "AstroNote/PaperReading/Gas accretion/Gas Accretion onto the Milky Way.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "61c8b75decac30da",
+            "id": "d6e85995e1b78854",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AstroNote/Something interesting/20230201-arxiv party.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ea1503345db03797",
+            "id": "2184e7209f1efe39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AstroNote/Something interesting/20220208-arxiv party.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AstroNote/Something interesting/20220208-arxiv party.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AstroNote/Something interesting/20220208-arxiv party.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AstroNote/Something interesting/20220208-arxiv party.md"
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md"
               }
             }
           }
@@ -172,17 +172,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea1503345db03797",
+  "active": "2184e7209f1efe39",
   "lastOpenFiles": [
-    "AstroNote/Something interesting/20230201-arxiv party.md",
-    "AstroNote/Something interesting/20230111-arxiv party.md",
-    "AstroNote/Something interesting/20230104-arxiv party.md",
-    "AstroNote/Something interesting/20221228-arxiv party.md",
-    "AstroNote/Something interesting/20221130-arxiv party.md",
-    "AstroNote/Something interesting/20221107-arxiv party.md",
-    "AstroNote/PaperReading/Changing-look AGN/Calibration.md",
-    "AstroNote/PaperReading/Changing-look AGN/Systemetic search.md",
-    "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
-    "AstroNote/Something interesting/20220418-Group meeting.md"
+    "Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
+    "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
+    "AstroNote/PaperReading/Untitled.md",
+    "AstroNote/PaperReading/Gas accretion/Gas Accretion onto the Milky Way.md",
+    "AstroNote/Arxiv-party/20220208-arxiv party.md",
+    "AstroNote/Arxiv-party/20230201-arxiv party.md",
+    "AstroNote/Arxiv-party/20230111-arxiv party.md",
+    "AstroNote/Arxiv-party/20230104-arxiv party.md",
+    "AstroNote/Arxiv-party/20221228-arxiv party.md",
+    "AstroNote/Arxiv-party/20221130-arxiv party.md"
   ]
 }
