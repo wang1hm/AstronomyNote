@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ea1503345db03797",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AstroNote/Something interesting/20220208-arxiv party.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AstroNote/Something interesting/20230201-arxiv party.md",
+                "file": "AstroNote/Something interesting/20220208-arxiv party.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AstroNote/Something interesting/20230201-arxiv party.md",
+                "file": "AstroNote/Something interesting/20220208-arxiv party.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AstroNote/Something interesting/20230201-arxiv party.md"
+                "file": "AstroNote/Something interesting/20220208-arxiv party.md"
               }
             }
           }
@@ -160,8 +172,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61c8b75decac30da",
+  "active": "ea1503345db03797",
   "lastOpenFiles": [
+    "AstroNote/Something interesting/20230201-arxiv party.md",
     "AstroNote/Something interesting/20230111-arxiv party.md",
     "AstroNote/Something interesting/20230104-arxiv party.md",
     "AstroNote/Something interesting/20221228-arxiv party.md",
@@ -170,7 +183,6 @@
     "AstroNote/PaperReading/Changing-look AGN/Calibration.md",
     "AstroNote/PaperReading/Changing-look AGN/Systemetic search.md",
     "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
-    "AstroNote/Something interesting/20220418-Group meeting.md",
-    "().md"
+    "AstroNote/Something interesting/20220418-Group meeting.md"
   ]
 }
