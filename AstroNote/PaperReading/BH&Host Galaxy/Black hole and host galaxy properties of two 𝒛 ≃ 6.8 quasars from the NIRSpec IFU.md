@@ -23,3 +23,5 @@ much larger than their host star formation rates of  $<39.3$ and $<205 M_{\odot}
 -用Ha, Hb: 适用于low-z, low-luminosity AGN, 所以对于高红移，亮quasar，需要推断
      更重要的是，对于高红移源，这些线红移到>2.5$\mu m$ 超过地基可探测范围(for sources at 𝑧 > 4 for H𝛽 and 𝑧 > 3 for H𝛼)
 所以对于high-z一般用Mg II and C IV 代替，但这两个的reverberation mapping更uncertain
+
+With the James Webb Space Telescope (JWST) and the NearInfrared Spectrograph (NIRSpec; Jakobsen et al. 2022), H𝛽 is now observable up to 𝑧 = 9.8, and H𝛼 up to 𝑧 = 7.0
