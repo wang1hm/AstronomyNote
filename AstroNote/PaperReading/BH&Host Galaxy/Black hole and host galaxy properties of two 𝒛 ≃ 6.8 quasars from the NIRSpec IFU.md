@@ -25,3 +25,9 @@ much larger than their host star formation rates of  $<39.3$ and $<205 M_{\odot}
 所以对于high-z一般用Mg II and C IV 代替，但这两个的reverberation mapping更uncertain
 
 With the James Webb Space Telescope (JWST) and the NearInfrared Spectrograph (NIRSpec; Jakobsen et al. 2022), H𝛽 is now observable up to 𝑧 = 9.8, and H𝛼 up to 𝑧 = 7.0
+
+JWST不仅能在近红外观测，而且角分辨率好，可以第一次观测high-z的host galaxy
+
+选源：DELS J0411 0907 is the most distant of the Pan-STARRS quasars, and is the brightest quasar in the J-band above 𝑧 = 6.7 - super-Eddington quasar
+The quasar VDES J0020 3653 at 𝑧 = 6.86, 吸积效率略低；不过两个Eddington ratio都是用Mg II计算的，用Ha和Hb可以有更好的限制
+两个源都有Mg II的质量测定，
