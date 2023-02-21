@@ -34,3 +34,4 @@ Swift XRT data, as well as obtaining observations at the GTC in the optical, TNG
 The images clearly show the afterglow in all bands super-imposed on an underlying host galaxy.
 
 # Spectral shape and evolution
+![[WeChatad3d6a5a1a6f771a4c3d642517f9040b.png]]
