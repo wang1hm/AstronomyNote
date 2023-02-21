@@ -32,3 +32,5 @@ Swift XRT data, as well as obtaining observations at the GTC in the optical, TNG
 ## HST
 8 November 2022, 19 November 2022 and 4 December 2022
 The images clearly show the afterglow in all bands super-imposed on an underlying host galaxy.
+
+# Spectral shape and evolution
