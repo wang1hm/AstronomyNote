@@ -3,3 +3,7 @@
 
 # Introduction
 Galaxy morphology is strongly correlated with their stellar populations, but its connection with mass assembly mechanisms and quenching events is still unclear
+
+Supervised deep learning (DL) methods based on Convolutional Neural Networks (CNN) using galaxy images as input： Galaxy Zoo (Willett et al. 2013) or Nair & Abraham (2010), were available.
+
+one that separates early (ETG) or late type galaxies (LTG) and the other that separates elliptical (Es) from lenticular galaxies (S0)
