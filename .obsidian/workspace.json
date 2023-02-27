@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5a3ed94f968b550b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AstroNote/PaperReading/Gas accretion/Gas Accretion onto the Milky Way.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d6e85995e1b78854",
             "type": "leaf",
             "state": {
@@ -32,31 +20,19 @@
             }
           },
           {
-            "id": "2184e7209f1efe39",
+            "id": "b2aa4248bbea8768",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b8e45f46100c6a3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "The first JWST spectrum of a GRB afterglow - No bright supernova in observations of the brightest GRB of all time, GRB 221009A.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/Revisiting the SFR-Mass relation at z=0 with detailed deep learning based morphologies.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "The first JWST spectrum of a GRB afterglow - No bright supernova in observations of the brightest GRB of all time, GRB 221009A.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/Revisiting the SFR-Mass relation at z=0 with detailed deep learning based morphologies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The first JWST spectrum of a GRB afterglow - No bright supernova in observations of the brightest GRB of all time, GRB 221009A.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/Revisiting the SFR-Mass relation at z=0 with detailed deep learning based morphologies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The first JWST spectrum of a GRB afterglow - No bright supernova in observations of the brightest GRB of all time, GRB 221009A.md"
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/Revisiting the SFR-Mass relation at z=0 with detailed deep learning based morphologies.md"
               }
             }
           }
@@ -184,17 +160,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b8e45f46100c6a3a",
+  "active": "b2aa4248bbea8768",
   "lastOpenFiles": [
     "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
+    "AstroNote/PaperReading/Gas accretion/Gas Accretion onto the Milky Way.md",
+    "The first JWST spectrum of a GRB afterglow - No bright supernova in observations of the brightest GRB of all time, GRB 221009A.md",
     "Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
     "AstroNote/PaperReading/Untitled.md",
-    "AstroNote/PaperReading/Gas accretion/Gas Accretion onto the Milky Way.md",
     "AstroNote/Arxiv-party/20220208-arxiv party.md",
     "AstroNote/Arxiv-party/20230201-arxiv party.md",
     "AstroNote/Arxiv-party/20230111-arxiv party.md",
     "AstroNote/Arxiv-party/20230104-arxiv party.md",
-    "AstroNote/Arxiv-party/20221228-arxiv party.md",
-    "AstroNote/Arxiv-party/20221130-arxiv party.md"
+    "AstroNote/Arxiv-party/20221228-arxiv party.md"
   ]
 }
