@@ -25,14 +25,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AstroNote/PaperReading/BH&Host Galaxy/Revisiting the SFR-Mass relation at z=0 with detailed deep learning based morphologies.md",
+                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "b878c50c7afd80de",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.15"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AstroNote/PaperReading/BH&Host Galaxy/Revisiting the SFR-Mass relation at z=0 with detailed deep learning based morphologies.md",
+                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AstroNote/PaperReading/BH&Host Galaxy/Revisiting the SFR-Mass relation at z=0 with detailed deep learning based morphologies.md",
+                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AstroNote/PaperReading/BH&Host Galaxy/Revisiting the SFR-Mass relation at z=0 with detailed deep learning based morphologies.md"
+                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md"
               }
             }
           }
@@ -160,17 +170,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2aa4248bbea8768",
+  "active": "b878c50c7afd80de",
   "lastOpenFiles": [
     "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
-    "AstroNote/PaperReading/Gas accretion/Gas Accretion onto the Milky Way.md",
-    "The first JWST spectrum of a GRB afterglow - No bright supernova in observations of the brightest GRB of all time, GRB 221009A.md",
-    "Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
-    "AstroNote/PaperReading/Untitled.md",
-    "AstroNote/Arxiv-party/20220208-arxiv party.md",
-    "AstroNote/Arxiv-party/20230201-arxiv party.md",
     "AstroNote/Arxiv-party/20230111-arxiv party.md",
+    "AstroNote/Arxiv-party/20230201-arxiv party.md",
+    "AstroNote/Arxiv-party/20230208-arxiv party.md",
+    "AstroNote/Arxiv-party/20220418-Group meeting.md",
+    "AstroNote/Arxiv-party/20221107-arxiv party.md",
+    "AstroNote/Arxiv-party/20221130-arxiv party.md",
+    "AstroNote/Arxiv-party/20221228-arxiv party.md",
     "AstroNote/Arxiv-party/20230104-arxiv party.md",
-    "AstroNote/Arxiv-party/20221228-arxiv party.md"
+    "AstroNote/PaperReading/BH&Host Galaxy/Revisiting the SFR-Mass relation at z=0 with detailed deep learning based morphologies.md"
   ]
 }
