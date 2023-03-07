@@ -20,29 +20,19 @@
             }
           },
           {
-            "id": "b2aa4248bbea8768",
+            "id": "d6adb4bb78dd268a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/OBSERVABLE SIGNATURES OF STELLAR-MASS BLACK HOLES IN ACTIVE GALACTIC NUCLEI.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "b878c50c7afd80de",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.15"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/OBSERVABLE SIGNATURES OF STELLAR-MASS BLACK HOLES IN ACTIVE GALACTIC NUCLEI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/OBSERVABLE SIGNATURES OF STELLAR-MASS BLACK HOLES IN ACTIVE GALACTIC NUCLEI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md"
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/OBSERVABLE SIGNATURES OF STELLAR-MASS BLACK HOLES IN ACTIVE GALACTIC NUCLEI.md"
               }
             }
           }
@@ -170,9 +160,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b878c50c7afd80de",
+  "active": "d6adb4bb78dd268a",
   "lastOpenFiles": [
     "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
+    "AstroNote/PaperReading/BH&Host Galaxy/OBSERVABLE SIGNATURES OF STELLAR-MASS BLACK HOLES IN ACTIVE GALACTIC NUCLEI.md",
+    "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
     "AstroNote/Arxiv-party/20230111-arxiv party.md",
     "AstroNote/Arxiv-party/20230201-arxiv party.md",
     "AstroNote/Arxiv-party/20230208-arxiv party.md",
