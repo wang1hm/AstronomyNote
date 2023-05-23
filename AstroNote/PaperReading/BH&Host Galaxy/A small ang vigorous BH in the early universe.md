@@ -21,3 +21,6 @@ JWST NIRSpec: unresolved nuclear component and a disk-like component with an ext
 [NeIV] : requires photons E > 63.5 eV, this line is an unambiguous AGN tracer - commonly seen in AGN and not seen in star forming galaxies, not even those hosting the most extreme Wolf-Rayet stars
 CII∗λ1335 fluorescent line: commonly observed in AGN
 [NIV]λ1483, NIV]λ1486 doublet: very sensitive to the gas density (while being relatively insensitive to ionization parameter, metallicity and shape of the ionizing spectrum) => densities much higher than $10^5 cm^{−3}$
+the upper limit on the doublet ratio, F([NIV]1483)/F(NIV]1486)<0.15, requires densities  $> 10^6 cm^−3$ 
+four semi-forbidden lines -> n>$10^9 cm^>{-3}$
+如此高密度不太可能是普通的HII region，只能是AGN
