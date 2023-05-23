@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6adb4bb78dd268a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/A small ang vigorous BH in the early universe.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -77,12 +64,21 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "fbc9f8b2663549aa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "5d236897a936ac12",
@@ -98,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/A small ang vigorous BH in the early universe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/A small ang vigorous BH in the early universe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AstroNote/PaperReading/JWST/CSST DISCUSSION.md"
+                "file": "AstroNote/PaperReading/BH&Host Galaxy/A small ang vigorous BH in the early universe.md"
               }
             }
           }
@@ -159,15 +155,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6adb4bb78dd268a",
+  "active": "d6e85995e1b78854",
   "lastOpenFiles": [
+    "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
+    "AstroNote/PaperReading/BH&Host Galaxy/A small ang vigorous BH in the early universe.md",
+    "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
     "AstroNote/Arxiv-party/20230208-arxiv party.md",
     "AstroNote/Arxiv-party/20230412-arxiv party.md",
     "WeChatdc15b8700d9c249d442a9c0de6ee4ee8.png",
     "WeChat1f5d240a2a2bd8bc1c3fa8fc9dedb45d.png",
     "AstroNote/PaperReading/BH&Host Galaxy/OBSERVABLE SIGNATURES OF STELLAR-MASS BLACK HOLES IN ACTIVE GALACTIC NUCLEI.md",
-    "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
-    "AstroNote/PaperReading/JWST/CSST DISCUSSION.md",
     "AstroNote/Arxiv-party/20230111-arxiv party.md",
     "AstroNote/Arxiv-party/20230201-arxiv party.md",
     "AstroNote/Arxiv-party/20220418-Group meeting.md",
