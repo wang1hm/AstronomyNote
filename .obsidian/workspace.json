@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AstroNote/PaperReading/Galaxy/Sizes and mass profiles of candidate massive galaxies discovered by JWST at 7 < z < 9：evidence for very early formation of the central ∼ 100 pc of present-day ellipticals.md",
+                "file": "AstroNote/Arxiv-party/20221130-arxiv party.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "5d236897a936ac12",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AstroNote/PaperReading/Galaxy/Sizes and mass profiles of candidate massive galaxies discovered by JWST at 7 < z < 9：evidence for very early formation of the central ∼ 100 pc of present-day ellipticals.md",
+                "file": "AstroNote/Arxiv-party/20221130-arxiv party.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AstroNote/PaperReading/Galaxy/Sizes and mass profiles of candidate massive galaxies discovered by JWST at 7 < z < 9：evidence for very early formation of the central ∼ 100 pc of present-day ellipticals.md",
+                "file": "AstroNote/Arxiv-party/20221130-arxiv party.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AstroNote/PaperReading/Galaxy/Sizes and mass profiles of candidate massive galaxies discovered by JWST at 7 < z < 9：evidence for very early formation of the central ∼ 100 pc of present-day ellipticals.md"
+                "file": "AstroNote/Arxiv-party/20221130-arxiv party.md"
               }
             }
           }
@@ -157,8 +156,10 @@
   },
   "active": "d6e85995e1b78854",
   "lastOpenFiles": [
-    "AstroNote/PaperReading/BH&Host Galaxy/A small ang vigorous BH in the early universe.md",
+    "AstroNote/Arxiv-party/20221107-arxiv party.md",
+    "AstroNote/Arxiv-party/20220418-Group meeting.md",
     "AstroNote/PaperReading/Galaxy/Sizes and mass profiles of candidate massive galaxies discovered by JWST at 7 < z < 9：evidence for very early formation of the central ∼ 100 pc of present-day ellipticals.md",
+    "AstroNote/PaperReading/BH&Host Galaxy/A small ang vigorous BH in the early universe.md",
     "AstroNote/PaperReading/Galaxy",
     "AstroNote/Arxiv-party/20230412-arxiv party.md",
     "AstroNote/PaperReading/BH&Host Galaxy/Black hole and host galaxy properties of two 𝒛 ≃ 6.8 quasars from the NIRSpec IFU.md",
@@ -169,8 +170,6 @@
     "AstroNote/PaperReading/BH&Host Galaxy/OBSERVABLE SIGNATURES OF STELLAR-MASS BLACK HOLES IN ACTIVE GALACTIC NUCLEI.md",
     "AstroNote/Arxiv-party/20230111-arxiv party.md",
     "AstroNote/Arxiv-party/20230201-arxiv party.md",
-    "AstroNote/Arxiv-party/20220418-Group meeting.md",
-    "AstroNote/Arxiv-party/20221107-arxiv party.md",
     "AstroNote/Arxiv-party/20221130-arxiv party.md",
     "AstroNote/Arxiv-party/20221228-arxiv party.md",
     "AstroNote/Arxiv-party/20230104-arxiv party.md",
